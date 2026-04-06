@@ -269,7 +269,3 @@ python test_survey_quality.py
 | `config.py` | Unified YAML config (`RCConfig`) |
 
 ---
-
-## License
-
-MIT — see `pyproject.toml` for details.
