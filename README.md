@@ -9,6 +9,8 @@
 
 AutoSurveyClaw is an autonomous pipeline that transforms a research topic into a publication-ready survey paper. Specify a topic, configure your LLM, and the pipeline handles literature search, synthesis, taxonomy generation, multi-pass drafting, peer review simulation, and LaTeX export — fully unattended.
 
+Special thanks to the [AutoResearchClaw repository](https://github.com/aiming-lab/AutoResearchClaw) team. Their design serves as the foundation for this repository and is integral to its functionality.
+
 ---
 
 ## Features
