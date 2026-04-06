@@ -59,12 +59,6 @@ pip install -e ".[all]"
 
 ## Configuration
 
-Copy the example config and fill in your LLM settings:
-
-```bash
-cp config.surveyclaw.example.yaml config.yaml
-```
-
 ### Ollama (local, no API key)
 
 ```yaml
@@ -106,18 +100,6 @@ Set the key in your environment:
 ```bash
 export OPENAI_API_KEY=sk-...
 ```
-
-### Key config fields
-
-| Field | Description | Default |
-|---|---|---|
-| `research.topic` | Survey topic (overridden by `--topic` flag) | required |
-| `research.daily_paper_count` | Papers fetched per search query | `10` |
-| `research.quality_threshold` | Minimum relevance score (0–5) | `4.0` |
-| `project.mode` | `survey` for literature review; `full-auto` for research | `full-auto` |
-| `runtime.timezone` | Timezone for scheduling | `America/New_York` |
-| `security.hitl_required_stages` | Stages requiring human approval | `[5, 13]` |
-
 ---
 
 ## Running a Survey
