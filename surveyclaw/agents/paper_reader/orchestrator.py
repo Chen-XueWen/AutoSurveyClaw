@@ -62,6 +62,20 @@ class PaperReadingOrchestrator(AgentOrchestrator):
             title = str(paper.get("title", ""))
             cached = get_card(pid, title)
             if cached is not None:
+                cached_source = str(
+                    cached.get("fulltext_source")
+                    or cached.get("card", {}).get("fulltext_source", "")
+                ).strip()
+                # Do not trust cached abstract-only cards for 30 days.
+                # Re-fetch full text on each run so transient outages don't
+                # permanently degrade Stage 6 quality.
+                if cached_source == "abstract_only":
+                    logger.info(
+                        "[paper_reader] cache STALE (abstract_only): %s",
+                        title[:60],
+                    )
+                    to_fetch.append(paper)
+                    continue
                 all_cards.append(cached.get("card", cached))
                 cache_hits += 1
                 # Still write card file if it doesn't exist
@@ -91,11 +105,18 @@ class PaperReadingOrchestrator(AgentOrchestrator):
             card: dict[str, Any] = result.data.get("card", {})
             source: str = result.data.get("source", "unknown")
 
-            # Cache the card
+            # Cache the card unless it is abstract-only fallback.
+            # This prevents transient fetch failures from being sticky.
             pid = str(paper.get("paper_id", "") or paper.get("id", ""))
             title = str(paper.get("title", ""))
-            put_card(pid, title, card, cite_key=str(paper.get("cite_key", "")),
-                     fulltext_source=source)
+            if source != "abstract_only":
+                put_card(
+                    pid,
+                    title,
+                    card,
+                    cite_key=str(paper.get("cite_key", "")),
+                    fulltext_source=source,
+                )
 
             # Write card markdown file
             _write_card_file(cards_dir, card)

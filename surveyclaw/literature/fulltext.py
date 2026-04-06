@@ -43,6 +43,8 @@ _ARXIV_HTML_BASE = "https://arxiv.org/html/{arxiv_id}"
 _ARXIV_HTML_TIMEOUT = 30
 
 _PDF_DOWNLOAD_TIMEOUT = 60
+_FULLTEXT_RETRY_ATTEMPTS = 3
+_FULLTEXT_RETRY_BASE_DELAY = 1.0
 
 # ~1.33 tokens per word for most LLMs
 _TOKENS_PER_WORD = 1.33
@@ -383,6 +385,35 @@ def _resolve_arxiv_id(title: str) -> str:
     return ""
 
 
+def _retry_fetch_text(
+    fetch_fn: Any,
+    *args: Any,
+    label: str,
+) -> str | None:
+    """Retry a fulltext fetch layer a few times before giving up.
+
+    This intentionally retries even on ``None`` returns because the lower-level
+    fetchers swallow transient HTTP/network errors and return ``None``.
+    """
+    for attempt in range(1, _FULLTEXT_RETRY_ATTEMPTS + 1):
+        try:
+            text = fetch_fn(*args)
+        except Exception as exc:  # noqa: BLE001
+            logger.debug("[fulltext] %s failed on attempt %d: %s", label, attempt, exc)
+            text = None
+        if text:
+            if attempt > 1:
+                logger.info(
+                    "[fulltext] %s succeeded on retry %d/%d",
+                    label, attempt, _FULLTEXT_RETRY_ATTEMPTS,
+                )
+            return text
+        if attempt < _FULLTEXT_RETRY_ATTEMPTS:
+            delay = _FULLTEXT_RETRY_BASE_DELAY * attempt
+            time.sleep(delay)
+    return None
+
+
 def fetch_fulltext(paper: dict[str, Any]) -> tuple[str, str]:
     """Fetch the best available full text for a paper.
 
@@ -411,7 +442,7 @@ def fetch_fulltext(paper: dict[str, Any]) -> tuple[str, str]:
 
     # Layer 1: Semantic Scholar (may redirect to arXiv HTML internally,
     #           and may populate paper["arxiv_id"] via S2 externalIds)
-    text = _fetch_s2_fulltext(paper)
+    text = _retry_fetch_text(_fetch_s2_fulltext, paper, label="s2_fulltext")
     if text:
         return text, "s2_fulltext"
 
@@ -422,17 +453,22 @@ def fetch_fulltext(paper: dict[str, Any]) -> tuple[str, str]:
     # Layer 1b: If arxiv_id still missing, search arXiv by title
     # (handles papers from OpenAlex/DOI sources that have arXiv preprints)
     if not arxiv_id:
-        arxiv_id = _resolve_arxiv_id(title)
+        for attempt in range(1, _FULLTEXT_RETRY_ATTEMPTS + 1):
+            arxiv_id = _resolve_arxiv_id(title)
+            if arxiv_id:
+                break
+            if attempt < _FULLTEXT_RETRY_ATTEMPTS:
+                time.sleep(_FULLTEXT_RETRY_BASE_DELAY * attempt)
 
     # Layer 2: arXiv HTML
     if arxiv_id:
-        text = _fetch_arxiv_html(arxiv_id)
+        text = _retry_fetch_text(_fetch_arxiv_html, arxiv_id, label="arxiv_html")
         if text:
             return text, "arxiv_html"
 
     # Layer 3: arXiv PDF
     if arxiv_id:
-        text = _fetch_arxiv_pdf(arxiv_id)
+        text = _retry_fetch_text(_fetch_arxiv_pdf, arxiv_id, label="arxiv_pdf")
         if text:
             return text, "arxiv_pdf"
 
