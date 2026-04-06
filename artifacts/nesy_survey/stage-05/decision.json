@@ -1,0 +1,15 @@
+{
+  "stage_id": "05-literature_screen",
+  "run_id": "survey-20260406-150734-87bab2",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "shortlist.jsonl"
+  ],
+  "evidence_refs": [
+    "stage-05/shortlist.jsonl"
+  ],
+  "error": null,
+  "ts": "2026-04-06T15:17:07+00:00",
+  "next_stage": 6
+}

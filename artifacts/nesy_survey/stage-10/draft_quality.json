@@ -1,0 +1,136 @@
+{
+  "section_analysis": [
+    {
+      "heading": "Neurosymbolic AI: A Comprehensive Review of Integration, Reasoning, and Trust",
+      "word_count": 173,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "1. Introduction",
+      "word_count": 556,
+      "canonical": "",
+      "bullet_density": 0.44,
+      "bullet_status": "high"
+    },
+    {
+      "heading": "2. Related Work",
+      "word_count": 640,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "3. Taxonomy and Categorization",
+      "word_count": 713,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "4. Detailed Review of Approaches",
+      "word_count": 627,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "5. Comparative Analysis",
+      "word_count": 482,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "6. Open Challenges and Future Directions",
+      "word_count": 336,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "7. Conclusion",
+      "word_count": 155,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "5. Methodology",
+      "word_count": 463,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "6. Taxonomy and Categorization",
+      "word_count": 950,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "7. Detailed Review of Approaches",
+      "word_count": 2143,
+      "canonical": ""
+    },
+    {
+      "heading": "8. Comparative Analysis",
+      "word_count": 482,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "9. Open Challenges and Future Directions",
+      "word_count": 1057,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "10. Conclusion",
+      "word_count": 155,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "8. Comparative Analysis and Discussion",
+      "word_count": 1227,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "9. Open Challenges and Future Directions",
+      "word_count": 758,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "10. Limitations of This Survey",
+      "word_count": 179,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "11. Conclusion",
+      "word_count": 203,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    }
+  ],
+  "overall_warnings": [
+    "1. Introduction has 4/9 bullet/numbered lines (44% density, threshold 25%)",
+    "High weasel-word count: 35 instances (consider replacing vague words with precise language)"
+  ],
+  "revision_directives": [
+    "REWRITE 1. Introduction as flowing academic prose. Convert bullet points to narrative paragraphs.",
+    "Replace vague hedging words (various, several, quite, fairly, rather, somewhat) with precise quantities or remove them."
+  ]
+}

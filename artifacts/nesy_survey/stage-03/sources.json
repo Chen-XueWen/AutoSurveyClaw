@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "src_001",
+      "name": "IEEE Xplore",
+      "type": "Database",
+      "url": "https://ieeexplore.ieee.org",
+      "status": "active",
+      "query": "NEURSYMBOLIC OR DIFFERENTIABLE LOGIC OR NEURAL THEOREM PROVING",
+      "verified_at": "2024-05-22T10:00:00Z"
+    },
+    {
+      "id": "src_002",
+      "name": "ACM Digital Library",
+      "type": "Database",
+      "url": "https://dl.acm.org",
+      "status": "active",
+      "query": "NEURSYMBOLIC OR HYBRID AI OR SYMBOLIC CONSTRAINTS",
+      "verified_at": "2024-05-22T10:00:00Z"
+    },
+    {
+      "id": "src_003",
+      "name": "arXiv",
+      "type": "Preprint Server",
+      "url": "https://arxiv.org",
+      "status": "active",
+      "query": "NEURSYMBOLIC OR DIFFERENTIABLE LOGIC OR MODULAR NEURAL NETWORKS",
+      "verified_at": "2024-05-22T10:00:00Z"
+    },
+    {
+      "id": "src_004",
+      "name": "DBLP",
+      "type": "Bibliographic Database",
+      "url": "https://dblp.org",
+      "status": "active",
+      "query": "NEURSYMBOLIC OR SYMBOLIC AI OR CONNECTIONISM",
+      "verified_at": "2024-05-22T10:00:00Z"
+    },
+    {
+      "id": "src_005",
+      "name": "Core Architectural Search",
+      "type": "Query",
+      "url": "combined",
+      "status": "pending",
+      "query": "\"Neuro-symbolic\" OR \"Differentiable Logic\" OR \"Neural Theorem Proving\"",
+      "verified_at": "2024-05-22T10:00:00Z"
+    },
+    {
+      "id": "src_006",
+      "name": "Evaluation Benchmarks Search",
+      "type": "Query",
+      "url": "combined",
+      "status": "pending",
+      "query": "\"Sample Efficiency\" OR \"Out-of-Distribution\" OR \"ProofWriter\" OR \"RuleTaker\"",
+      "verified_at": "2024-05-22T10:00:00Z"
+    }
+  ],
+  "count": 6,
+  "generated": "2026-04-06T15:12:02+00:00"
+}
