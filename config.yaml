@@ -1,0 +1,67 @@
+project:
+  name: "my-survey"
+  mode: "survey"
+
+research:
+  topic: "Neurosymbolic AI"
+  domains:
+    - "machine-learning"
+  daily_paper_count: 10
+  quality_threshold: 4.0
+
+runtime:
+  timezone: "America/New_York"
+  max_parallel_tasks: 3
+  approval_timeout_hours: 12
+  retry_limit: 2
+
+notifications:
+  channel: "console"
+  target: ""
+  on_stage_start: true
+  on_stage_fail: true
+  on_gate_required: true
+
+knowledge_base:
+  backend: "markdown"
+  root: "docs/kb"
+
+openclaw_bridge:
+  use_cron: false
+  use_message: false
+  use_memory: false
+  use_sessions_spawn: false
+  use_web_fetch: false
+  use_browser: false
+
+# === LLM (Ollama — fully local, no API key needed) ===
+llm:
+  provider: "ollama"
+  base_url: "http://localhost:11434/v1"
+  wire_api: "chat_completions"
+  api_key_env: ""
+  api_key: ""
+  primary_model: "qwen3.5:35b"
+  fallback_models:
+    - "qwen3.5:9b"
+
+# === Embeddings (Ollama local embedding models) ===
+memory:
+  enabled: true
+  store_dir: ".surveyclaw/memory"
+  # Ollama embedding options:
+  #   qwen3-embedding:4b  (recommended, larger, more accurate)
+  #   nomic-embed-text:v1.5  (lighter, faster)
+  embedding_model: "qwen3-embedding:4b"
+
+security:
+  hitl_required_stages: [5, 13]
+  allow_publish_without_approval: false
+  redact_sensitive_logs: true
+
+# === Prompts ===
+prompts:
+  custom_file: ""
+
+metaclaw_bridge:
+  enabled: false
