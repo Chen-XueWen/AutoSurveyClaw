@@ -1,0 +1,114 @@
+{
+  "section_analysis": [
+    {
+      "heading": "Set Neural Networks: A Comprehensive Survey on Architectures and Theoretical Foundations",
+      "word_count": 182,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "1. Introduction",
+      "word_count": 515,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "2. Related Work",
+      "word_count": 428,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "3. Taxonomy and Categorization",
+      "word_count": 647,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "4. Detailed Review of Approaches",
+      "word_count": 614,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "5. Comparative Analysis",
+      "word_count": 376,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "6. Open Challenges and Future Directions",
+      "word_count": 322,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "7. Conclusion",
+      "word_count": 110,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "5. Methodology",
+      "word_count": 662,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "6. Taxonomy and Categorization",
+      "word_count": 1247,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "7. Detailed Review of Approaches",
+      "word_count": 1953,
+      "canonical": ""
+    },
+    {
+      "heading": "8. Comparative Analysis and Discussion",
+      "word_count": 1494,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "9. Open Challenges and Future Directions",
+      "word_count": 988,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "10. Limitations of This Survey",
+      "word_count": 164,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "11. Conclusion",
+      "word_count": 261,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    }
+  ],
+  "overall_warnings": [
+    "Citation recency low: only 1/19 (5%) from last 3 years (target: >=30%%)",
+    "AI boilerplate detected: 8 instances of generic LLM phrases (e.g., 'a comprehensive overview', 'bridge the gap', 'cutting-edge')"
+  ],
+  "revision_directives": [
+    "REWRITE sentences containing AI-generated boilerplate phrases. Replace generic language (e.g., 'delves into', 'it is worth noting', 'leverages the power of', 'plays a crucial role', 'paves the way') with precise, specific academic language."
+  ]
+}

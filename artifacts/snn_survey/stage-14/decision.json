@@ -1,0 +1,17 @@
+{
+  "stage_id": "14-knowledge_archive",
+  "run_id": "survey-20260407-000851-723501",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "archive.md",
+    "bundle_index.json"
+  ],
+  "evidence_refs": [
+    "stage-14/archive.md",
+    "stage-14/bundle_index.json"
+  ],
+  "error": null,
+  "ts": "2026-04-07T02:07:43+00:00",
+  "next_stage": 15
+}

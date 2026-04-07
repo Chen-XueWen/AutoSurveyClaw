@@ -1,0 +1,15 @@
+{
+  "stage_id": "06-knowledge_extract",
+  "run_id": "survey-20260407-000851-723501",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "cards/"
+  ],
+  "evidence_refs": [
+    "stage-06/cards/"
+  ],
+  "error": null,
+  "ts": "2026-04-07T01:16:25+00:00",
+  "next_stage": 7
+}

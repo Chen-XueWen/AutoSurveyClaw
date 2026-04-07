@@ -1,0 +1,15 @@
+{
+  "stage_id": "11-peer_review",
+  "run_id": "survey-20260407-000851-723501",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "reviews.md"
+  ],
+  "evidence_refs": [
+    "stage-11/reviews.md"
+  ],
+  "error": null,
+  "ts": "2026-04-07T01:46:04+00:00",
+  "next_stage": 12
+}

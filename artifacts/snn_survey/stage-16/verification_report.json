@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "total": 18,
+    "verified": 16,
+    "suspicious": 0,
+    "hallucinated": 2,
+    "skipped": 0,
+    "integrity_score": 0.889
+  },
+  "results": [
+    {
+      "cite_key": "jan2023mizar",
+      "title": "MizAR 60 for Mizar 50",
+      "status": "hallucinated",
+      "confidence": 0.9,
+      "method": "doi",
+      "details": "DOI 10.4230/lipics.itp.2023.19 not found (HTTP 404)",
+      "relevance_score": 0.0
+    },
+    {
+      "cite_key": "ioffe2024batch",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "status": "hallucinated",
+      "confidence": 0.9,
+      "method": "doi",
+      "details": "DOI 10.57702/o9raffed not found (HTTP 404)",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "goodfellow2020generative",
+      "title": "Generative adversarial networks",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Generative adversarial networks'",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "wu2020comprehensive",
+      "title": "A Comprehensive Survey on Graph Neural Networks",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A Comprehensive Survey on Graph Neural Networks'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "wang2020ecanet",
+      "title": "ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "baek2021accurate",
+      "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Accurate prediction of protein structures and interactions using a three-track neural network'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "mildenhall2021nerf",
+      "title": "NeRF",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'NeRF'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "mildenhall2020nerf",
+      "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "han2020ghostnet",
+      "title": "GhostNet: More Features From Cheap Operations",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'GhostNet: More Features From Cheap Operations'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "zhang2023adding",
+      "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Adding Conditional Control to Text-to-Image Diffusion Models'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "shi2020pvrcnn",
+      "title": "PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "xu2020ufusion",
+      "title": "U2Fusion: A Unified Unsupervised Image Fusion Network",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'U2Fusion: A Unified Unsupervised Image Fusion Network'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "batzner2022eequivariant",
+      "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "yu2021pixelnerf",
+      "title": "pixelNeRF: Neural Radiance Fields from One or Few Images",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'pixelNeRF: Neural Radiance Fields from One or Few Images'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "fridovichkeil2022plenoxels",
+      "title": "Plenoxels: Radiance Fields without Neural Networks",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Plenoxels: Radiance Fields without Neural Networks'",
+      "relevance_score": 0.0
+    },
+    {
+      "cite_key": "zhang2021transfuse",
+      "title": "TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'TransFuse: Fusing Transformers and CNNs for Medical Image Segmentation'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "engel2021point",
+      "title": "Point Transformer",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Point Transformer'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "zhou2022setcnn",
+      "title": "Set-CNN: A text convolutional neural network based on semantic extension for short text classification",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Set-CNN: A text convolutional neural network based on semantic extension for short text classification'",
+      "relevance_score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "stage_id": "09-paper_outline",
+  "run_id": "survey-20260407-000851-723501",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "outline.md"
+  ],
+  "evidence_refs": [
+    "stage-09/outline.md"
+  ],
+  "error": null,
+  "ts": "2026-04-07T01:22:20+00:00",
+  "next_stage": 10
+}
