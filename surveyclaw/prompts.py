@@ -1610,7 +1610,6 @@ _DEFAULT_STAGES: dict[str, dict[str, Any]] = {
             "3. CROSS-DOMAIN REJECTION: Reject papers from unrelated fields "
             "(e.g., wireless communications, database systems, social science) "
             "even if they use similar terminology.\n"
-            "4. RECENCY PREFERENCE: Prefer papers from 2020+ for methodology, "
             "but accept foundational papers (pre-2020) if they introduced key "
             "techniques still in use today.\n"
             "5. SEMINAL PAPERS: Papers marked as source='seminal_library' are "

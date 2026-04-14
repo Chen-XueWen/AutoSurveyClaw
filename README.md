@@ -9,8 +9,6 @@
 
 AutoSurveyClaw is an autonomous pipeline that transforms a research topic into a publication-ready survey paper. Specify a topic, configure your LLM, and the pipeline handles literature search, synthesis, taxonomy generation, multi-pass drafting, peer review simulation, and LaTeX export — fully unattended.
 
-Special thanks to the [AutoResearchClaw repository](https://github.com/aiming-lab/AutoResearchClaw) team. Their design serves as the foundation for this repository and is integral to its functionality.
-
 ---
 
 ## Features
@@ -61,6 +59,12 @@ pip install -e ".[all]"
 
 ## Configuration
 
+Copy the example config and fill in your LLM settings:
+
+```bash
+cp config.surveyclaw.example.yaml config.yaml
+```
+
 ### Ollama (local, no API key)
 
 ```yaml
@@ -102,6 +106,18 @@ Set the key in your environment:
 ```bash
 export OPENAI_API_KEY=sk-...
 ```
+
+### Key config fields
+
+| Field | Description | Default |
+|---|---|---|
+| `research.topic` | Survey topic (overridden by `--topic` flag) | required |
+| `research.daily_paper_count` | Papers fetched per search query | `10` |
+| `research.quality_threshold` | Minimum relevance score (0–5) | `4.0` |
+| `project.mode` | `survey` for literature review; `full-auto` for research | `full-auto` |
+| `runtime.timezone` | Timezone for scheduling | `America/New_York` |
+| `security.hitl_required_stages` | Stages requiring human approval | `[5, 13]` |
+
 ---
 
 ## Running a Survey
@@ -123,7 +139,17 @@ To skip gate approvals at stages 5 and 13 and run fully unattended:
 surveyclaw review --config config.yaml --auto-approve
 ```
 
-The pipeline resumes automatically from the last completed stage if interrupted.
+To resume the pipeline after an interruption or a failed stage, use the `--resume` flag. By default, it will automatically find the most recent run in the `artifacts/` folder and pick up exactly where it left off (e.g. at the failed stage):
+
+```bash
+surveyclaw review --resume
+```
+
+You can also specify a particular run directory to resume:
+
+```bash
+surveyclaw review --output artifacts/survey-20260413-125521-399082 --resume
+```
 
 ---
 
@@ -253,3 +279,7 @@ python test_survey_quality.py
 | `config.py` | Unified YAML config (`RCConfig`) |
 
 ---
+
+## License
+
+MIT — see `pyproject.toml` for details.

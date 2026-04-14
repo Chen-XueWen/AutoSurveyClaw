@@ -174,7 +174,7 @@ def search_papers(
                     "Semantic Scholar returned %d papers for %r", len(papers), query
                 )
                 # Rate-limit gap before next source
-                time.sleep(1.0)
+                time.sleep(5.0)
 
             elif src_lower == "arxiv":
                 papers = search_arxiv(query, limit=limit, year_min=year_min)
@@ -237,7 +237,7 @@ def search_papers_multi_query(
     sources: Sequence[str] = _DEFAULT_SOURCES,
     year_min: int = 0,
     s2_api_key: str = "",
-    inter_query_delay: float = 1.5,
+    inter_query_delay: float = 5.0,
 ) -> list[Paper]:
     """Run multiple queries and return deduplicated union.
 

@@ -120,7 +120,7 @@ def _get_client() -> arxiv.Client:
     if _client is None:
         _client = arxiv.Client(
             page_size=100,       # fetch up to 100 per API call
-            delay_seconds=3.1,   # arXiv requires ≥3s between requests
+            delay_seconds=5.0,   # arXiv requires ≥3s between requests, using 5s for safety
             num_retries=3,       # built-in retry on failure
         )
     return _client

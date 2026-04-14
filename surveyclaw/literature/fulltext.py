@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 _S2_PAPER_URL = "https://api.semanticscholar.org/graph/v1/paper/{id}"
 _S2_FIELDS = "title,openAccessPdf,tldr,externalIds"
 _S2_TIMEOUT = 20
-_S2_RATE_DELAY = 1.5  # seconds between S2 calls
+_S2_RATE_DELAY = 5.0  # seconds between S2 calls
 
 _ARXIV_HTML_BASE = "https://arxiv.org/html/{arxiv_id}"
 _ARXIV_HTML_TIMEOUT = 30
@@ -209,11 +209,19 @@ def _fetch_s2_fulltext(paper: dict[str, Any]) -> str | None:
 # Layer 2: arXiv HTML endpoint
 # ---------------------------------------------------------------------------
 
+_arxiv_html_last_call: float = 0.0
+_ARXIV_HTML_RATE_DELAY = 5.0
 
 def _fetch_arxiv_html(arxiv_id: str) -> str | None:
     """Fetch paper from arxiv.org/html/{arxiv_id} and return plain text."""
     if not arxiv_id:
         return None
+
+    global _arxiv_html_last_call
+    elapsed = time.monotonic() - _arxiv_html_last_call
+    if elapsed < _ARXIV_HTML_RATE_DELAY:
+        time.sleep(_ARXIV_HTML_RATE_DELAY - elapsed)
+    _arxiv_html_last_call = time.monotonic()
 
     url = _ARXIV_HTML_BASE.format(arxiv_id=arxiv_id)
     try:

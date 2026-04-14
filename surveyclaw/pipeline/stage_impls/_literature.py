@@ -558,33 +558,47 @@ def _execute_literature_screen(
 ) -> StageResult:
     candidates_text = _read_prior_artifact(run_dir, "candidates.jsonl") or ""
 
-    # --- P1-1: keyword relevance pre-filter ---
-    # Before LLM screening, drop papers whose title+abstract share no keywords
-    # with the research topic.  This catches cross-domain noise cheaply.
-    topic_keywords = _extract_topic_keywords(
-        config.research.topic, config.research.domains
+    # --- P1-1: semantic similarity relevance pre-filter ---
+    # Before LLM screening, drop papers whose title+abstract are semantically
+    # distant from the research topic. This catches cross-domain noise.
+    from surveyclaw.memory.embeddings import EmbeddingProvider
+
+    embed_provider = EmbeddingProvider(
+        api_base_url=getattr(config.llm, "api_base_url", ""),
+        api_key=getattr(config.llm, "api_key", ""),
     )
-    filtered_rows: list[dict[str, Any]] = []
-    dropped_count = 0
+    topic_text = f"{config.research.topic} {' '.join(config.research.domains)}"
+    topic_vector = embed_provider.embed(topic_text)
+
+    candidates = []
     for raw_line in candidates_text.strip().splitlines():
         row = _safe_json_loads(raw_line, {})
-        if not isinstance(row, dict):
-            continue
-        title = str(row.get("title", "")).lower()
-        abstract = str(row.get("abstract", "")).lower()
-        text_blob = f"{title} {abstract}"
-        overlap = sum(1 for kw in topic_keywords if kw in text_blob)
-        # T2.2: Relaxed from ≥2 to ≥1 keyword hit — previous threshold was
-        # too aggressive (94% rejection rate).  Single-keyword matches are
-        # still screened by the LLM in the next step.
-        if overlap >= 1:
-            row["keyword_overlap"] = overlap
+        if isinstance(row, dict):
+            candidates.append(row)
+
+    text_blobs = [str(r.get("title", "")) + " " + str(r.get("abstract", "")) for r in candidates]
+    try:
+        candidate_vectors = embed_provider.embed_batch(text_blobs)
+    except Exception as e:
+        logger.warning("Batch embedding failed: %s. Falling back to zeros.", e)
+        candidate_vectors = [[0.0] * len(topic_vector)] * len(candidates)
+
+    filtered_rows: list[dict[str, Any]] = []
+    dropped_count = 0
+    SIMILARITY_THRESHOLD = 0.10  # low threshold to catch obvious noise
+
+    for row, c_vec in zip(candidates, candidate_vectors):
+        similarity = sum(t * c for t, c in zip(topic_vector, c_vec))
+        if similarity >= SIMILARITY_THRESHOLD:
+            row["semantic_similarity"] = round(similarity, 3)
             filtered_rows.append(row)
         else:
             dropped_count += 1
+
     # If pre-filter dropped everything, fall back to original (safety valve)
     if not filtered_rows:
         filtered_rows = _parse_jsonl_rows(candidates_text)
+
     # Truncate abstracts and strip authors to reduce token usage
     for row in filtered_rows:
         abstract = row.get("abstract", "")
@@ -606,81 +620,34 @@ def _execute_literature_screen(
             len(candidates_text),
         )
     logger.info(
-        "Domain pre-filter: kept %d, dropped %d (keywords: %s)",
+        "Domain pre-filter: kept %d, dropped %d",
         len(filtered_rows),
         dropped_count,
-        topic_keywords[:8],
+    )
+
+    # Skip LLM screening entirely. Use the semantically filtered candidates directly.
+    # Sort by semantic similarity descending
+    filtered_rows.sort(
+        key=lambda r: r.get("semantic_similarity", 0.0),
+        reverse=True
     )
 
     shortlist: list[dict[str, Any]] = []
-    if llm is not None:
-        _pm = prompts or PromptManager()
-        _overlay = _get_evolution_overlay(run_dir, "literature_screen")
-        sp = _pm.for_stage(
-            "literature_screen",
-            evolution_overlay=_overlay,
-            topic=config.research.topic,
-            domains=", ".join(config.research.domains)
-            if config.research.domains
-            else "general",
-            quality_threshold=config.research.quality_threshold,
-            candidates_text=candidates_text,
-        )
-        
-        # Enforce venue and institutional filtering
-        venue_instruction = (
-            "\n\nCRITICAL VENUE & INSTITUTION FILTERING RULE:\n"
-            "You MUST rigidly filter papers based on venue and institution quality:\n"
-            "1. ONLY accept papers published in top-tier AI/CS conferences (e.g., NeurIPS, ICLR, ICML, CVPR, ACL, KDD) "
-            "or top-tier journals (e.g., TPAMI, JMLR, TMLR).\n"
-            "2. If a paper is sourced purely from arXiv (preprint), you MUST evaluate that the authors are affiliated with "
-            "reputable institutions (e.g., top-tier universities or major industrial labs like DeepMind, Meta FAIR, OpenAI, etc.).\n"
-            "3. Reject papers from unknown or low-tier venues and arXiv papers from unknown institutions, no matter how relevant they seem.\n"
-        )
-        sp_user = sp.user + venue_instruction
-        
-        resp = _chat_with_prompt(
-            llm,
-            sp.system,
-            sp_user,
-            json_mode=sp.json_mode,
-            max_tokens=sp.max_tokens,
-        )
-        payload = _safe_json_loads(resp.content, {})
-        if isinstance(payload, dict) and isinstance(payload.get("shortlist"), list):
-            shortlist = [row for row in payload["shortlist"] if isinstance(row, dict)]
-    # T2.2: Ensure minimum shortlist size of 15 for adequate related work
-    _MIN_SHORTLIST = 15
+    _MAX_SHORTLIST = 50  # Cap to prevent overwhelming downstream token limits
+
+    for row in filtered_rows[:_MAX_SHORTLIST]:
+        # Provide compatible scores expected by downstream stages
+        sim_score = row.get("semantic_similarity", 0.8)
+        row["relevance_score"] = sim_score
+        row["quality_score"] = round(min(1.0, sim_score + 0.1), 3)
+        row["keep_reason"] = "Passed semantic similarity filter"
+        shortlist.append(row)
+
     if not shortlist:
-        rows = (
-            filtered_rows[:_MIN_SHORTLIST]
-            if filtered_rows
-            else _parse_jsonl_rows(candidates_text)[:_MIN_SHORTLIST]
+        logger.warning(
+            "Stage 5: Empty shortlist. No papers passed semantic screening."
         )
-        for idx, item in enumerate(rows):
-            item["relevance_score"] = round(0.75 - idx * 0.02, 3)
-            item["quality_score"] = round(0.72 - idx * 0.015, 3)
-            item["keep_reason"] = "Template screened entry"
-            shortlist.append(item)
-    elif len(shortlist) < _MIN_SHORTLIST:
-        # T2.2: LLM returned too few — supplement from filtered candidates
-        existing_titles = {
-            str(s.get("title", "")).lower().strip() for s in shortlist
-        }
-        for row in filtered_rows:
-            if len(shortlist) >= _MIN_SHORTLIST:
-                break
-            title_lower = str(row.get("title", "")).lower().strip()
-            if title_lower and title_lower not in existing_titles:
-                row.setdefault("relevance_score", 0.5)
-                row.setdefault("quality_score", 0.5)
-                row.setdefault("keep_reason", "Supplemented to meet minimum shortlist")
-                shortlist.append(row)
-                existing_titles.add(title_lower)
-        logger.info(
-            "Stage 5: Supplemented shortlist to %d papers (minimum: %d)",
-            len(shortlist), _MIN_SHORTLIST,
-        )
+
     out = stage_dir / "shortlist.jsonl"
     _write_jsonl(out, shortlist)
     return StageResult(

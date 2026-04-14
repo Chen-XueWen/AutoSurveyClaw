@@ -50,6 +50,10 @@ def _build_parser() -> argparse.ArgumentParser:
         "--from-stage", type=str, default=None,
         help="Resume from a specific stage name (e.g. EXPORT_PUBLISH)",
     )
+    review.add_argument(
+        "--resume", action="store_true", default=False,
+        help="Automatically resume from the last failed stage of the most recent or specified run",
+    )
 
     # ── surveyclaw validate ────────────────────────────────────────────────
     validate = sub.add_parser("validate", help="Validate a config.yaml file")
@@ -117,19 +121,43 @@ def _cmd_review(args: argparse.Namespace) -> int:
 
     auto_approve = getattr(args, "auto_approve", False)
 
-    # Resolve from-stage
-    from_stage = Stage.TOPIC_INIT
-    from_stage_arg = getattr(args, "from_stage", None)
-    if from_stage_arg:
-        try:
-            from_stage = Stage[from_stage_arg.upper()]
-        except KeyError:
-            print(f"Unknown stage: {from_stage_arg}", file=sys.stderr)
-            return 1
+    resume = getattr(args, "resume", False)
 
-    run_id = _generate_run_id(topic)
-    run_dir = Path(getattr(args, "output", None) or f"artifacts/{run_id}")
-    run_dir.mkdir(parents=True, exist_ok=True)
+    if resume:
+        from surveyclaw.pipeline.runner import resume_from_checkpoint
+        
+        run_dir_arg = getattr(args, "output", None)
+        run_dir = None
+        if run_dir_arg:
+            run_dir = Path(run_dir_arg)
+        else:
+            artifacts_dir = Path("artifacts")
+            if artifacts_dir.exists():
+                dirs = [d for d in artifacts_dir.iterdir() if d.is_dir() and d.name.startswith("survey-")]
+                if dirs:
+                    dirs.sort(key=lambda d: d.stat().st_mtime, reverse=True)
+                    run_dir = dirs[0]
+                    
+        if not run_dir or not run_dir.exists():
+            print("No previous run found to resume from.", file=sys.stderr)
+            return 1
+            
+        from_stage = resume_from_checkpoint(run_dir)
+        run_id = run_dir.name
+    else:
+        # Resolve from-stage
+        from_stage = Stage.TOPIC_INIT
+        from_stage_arg = getattr(args, "from_stage", None)
+        if from_stage_arg:
+            try:
+                from_stage = Stage[from_stage_arg.upper()]
+            except KeyError:
+                print(f"Unknown stage: {from_stage_arg}", file=sys.stderr)
+                return 1
+
+        run_id = _generate_run_id(topic)
+        run_dir = Path(getattr(args, "output", None) or f"artifacts/{run_id}")
+        run_dir.mkdir(parents=True, exist_ok=True)
 
     adapters = AdapterBundle()
 
