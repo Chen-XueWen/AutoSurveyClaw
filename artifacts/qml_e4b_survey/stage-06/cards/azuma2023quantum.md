@@ -1,0 +1,9 @@
+# Quantum repeaters: From quantum networks to the quantum internet
+
+*source: abstract_only | tokens: 99*
+
+This paper functions as a comprehensive **review** detailing the technological hurdles and theoretical approaches required for realizing a global-scale quantum internet. Its scope is narrowly focused on the quantum repeater, identifying it as the critical enabling device necessary to overcome signal attenuation over long distances in quantum communication channels. The review systematically surveys the field by examining various conceptual frameworks, architectural designs, and the current state of experimental progress related to quantum repeaters and the broader quantum network infrastructure.
+
+While the provided text does not detail a specific taxonomy, the paper's structure implies a categorization based on the physical mechanisms and operational stages of quantum entanglement distribution. Key themes covered include the fundamental requirements for the repeater—specifically, the ability to store and manipulate qubits while interfacing with emitted entangled photons. The review tracks the progression from purely theoretical models to tangible experimental implementations.
+
+The primary gap addressed by the survey is the gap between the theoretical promise of the quantum internet and the practical engineering challenges of long-haul quantum communication. By reviewing multiple approaches, the paper implicitly guides the reader through the necessary technological maturity curve. For researchers in the field, this review serves as a foundational resource for understanding the landscape of repeater technology, contextualizing various proposed architectures against the backdrop of real-world experimental feasibility. It is positioned as a necessary precursor to more specialized works focusing on specific physical implementations (e.g., memory types or entanglement swapping protocols).

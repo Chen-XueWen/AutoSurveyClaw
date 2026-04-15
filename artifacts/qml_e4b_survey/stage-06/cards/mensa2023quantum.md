@@ -1,0 +1,5 @@
+# Quantum machine learning framework for virtual screening in drug discovery: a prospective quantum advantage
+
+*source: arxiv_pdf | tokens: 11733*
+
+Abstract Machine Learning for ligand based virtual screening (LB-VS) is an important in-silico tool for discovering new drugs in a faster and cost-effective manner, especially for emerging diseases such as COVID-19. In this paper, we propose a general-purpose framework combining a classical Support Vector Classifier algorithm with quantum kernel estimation for LB-VS on real-world databases, and we argue in favor of its prospective quantum advantage. Indeed, we heuristically prove that our quantum integrated workflow can, at least in some relevant instances, provide a tangible advantage compared to state-of-art classical algorithms operating on the same datasets, showing strong dependence on target and features selection method. Finally, we test our algorithm on IBM Quantum processors using...

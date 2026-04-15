@@ -1,0 +1,343 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Araujo et~al.(2021)Araujo, Park, Petruccione, and
+  da~Silva]{araujo2021divideandconquer}
+Israel~F. Araujo, Daniel~K. Park, Francesco Petruccione, and Adenilton~J.
+  da~Silva.
+\newblock A divide-and-conquer algorithm for quantum state preparation.
+\newblock \emph{Scientific Reports}, 2021.
+\newblock \doi{10.1038/s41598-021-85474-1}.
+\newblock URL \url{https://doi.org/10.1038/s41598-021-85474-1}.
+
+\bibitem[Bharti et~al.(2021)Bharti, Cervera-Lierta, Kyaw, Haug, Alperin-Lea,
+  Anand, Degroote, Heimonen, Kottmann, Menke, Mok, Sim, Kwek, and
+  Aspuru‐Guzik]{bharti2021noisy}
+Kishor Bharti, Alba Cervera-Lierta, Thi~Ha Kyaw, Tobias Haug, Sumner
+  Alperin-Lea, Abhinav Anand, Matthias Degroote, Hermanni Heimonen, Jakob~S.
+  Kottmann, Tim Menke, Wai‐Keong Mok, Sukin Sim, L.~C. Kwek, and Alán
+  Aspuru‐Guzik.
+\newblock Noisy intermediate-scale quantum (nisq) algorithms.
+\newblock \emph{arXiv (Cornell University)}, 2021.
+\newblock \doi{10.48550/arxiv.2101.08448}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2101.08448}.
+
+\bibitem[Bharti et~al.(2022)Bharti, Cervera-Lierta, Kyaw, Haug, Alperin-Lea,
+  Anand, Degroote, Heimonen, Kottmann, Menke, Mok, Sim, Kwek, and
+  Aspuru‐Guzik]{bharti2022noisy}
+Kishor Bharti, Alba Cervera-Lierta, Thi~Ha Kyaw, Tobias Haug, Sumner
+  Alperin-Lea, Abhinav Anand, Matthias Degroote, Hermanni Heimonen, Jakob~S.
+  Kottmann, Tim Menke, Wai‐Keong Mok, Sukin Sim, L.~C. Kwek, and Alán
+  Aspuru‐Guzik.
+\newblock Noisy intermediate-scale quantum algorithms.
+\newblock \emph{Reviews of Modern Physics}, 2022.
+\newblock \doi{10.1103/revmodphys.94.015004}.
+\newblock URL \url{https://doi.org/10.1103/revmodphys.94.015004}.
+
+\bibitem[Cerezo et~al.(2021{\natexlab{a}})Cerezo, Arrasmith, Babbush, Benjamin,
+  Endo, Fujii, McClean, Mitarai, Yuan, Cincio, and
+  Coles]{cerezo2021variational}
+M.~Cerezo, Andrew Arrasmith, Ryan Babbush, Simon~C. Benjamin, Suguru Endo,
+  Keisuke Fujii, Jarrod~R. McClean, Kosuke Mitarai, Xiao Yuan, Lukasz Cincio,
+  and Patrick~J. Coles.
+\newblock Variational quantum algorithms.
+\newblock \emph{Nature Reviews Physics}, 2021{\natexlab{a}}.
+\newblock \doi{10.1038/s42254-021-00348-9}.
+\newblock URL \url{https://doi.org/10.1038/s42254-021-00348-9}.
+
+\bibitem[Cerezo et~al.(2021{\natexlab{b}})Cerezo, Sone, Volkoff, Łukasz
+  Cincio, and Coles]{cerezo2021cost}
+M.~Cerezo, Akira Sone, Tyler Volkoff, Łukasz Cincio, and Patrick~J. Coles.
+\newblock Cost function dependent barren plateaus in shallow parametrized
+  quantum circuits.
+\newblock \emph{Nature Communications}, 2021{\natexlab{b}}.
+\newblock \doi{10.1038/s41467-021-21728-w}.
+\newblock URL \url{https://doi.org/10.1038/s41467-021-21728-w}.
+
+\bibitem[Cerezo et~al.(2022)Cerezo, Verdon, Huang, Łukasz Cincio, and
+  Coles]{cerezo2022challenges}
+M.~Cerezo, Guillaume Verdon, Hsin-Yuan Huang, Łukasz Cincio, and Patrick~J.
+  Coles.
+\newblock Challenges and opportunities in quantum machine learning.
+\newblock \emph{Nature Computational Science}, 2022.
+\newblock \doi{10.1038/s43588-022-00311-3}.
+\newblock URL \url{https://doi.org/10.1038/s43588-022-00311-3}.
+
+\bibitem[Chakraborty et~al.(2020)Chakraborty, Das, Sutradhar, Das, and
+  Deb]{chakraborty2020analytical}
+Simantini Chakraborty, Tamal Das, Saurav Sutradhar, Mrinmoy Das, and Suman Deb.
+\newblock An analytical review of quantum neural network models and relevant
+  research.
+\newblock 2020.
+\newblock \doi{10.1109/icces48766.2020.9137960}.
+\newblock URL \url{https://doi.org/10.1109/icces48766.2020.9137960}.
+
+\bibitem[Chen et~al.(2022)Chen, Wei, Zhang, Yu, and Yoo]{chen2022quantum}
+Samuel Yen-Chi Chen, Tzu-Chieh Wei, C.~Zhang, Haiwang Yu, and Shinjae Yoo.
+\newblock Quantum convolutional neural networks for high energy physics data
+  analysis.
+\newblock \emph{Physical Review Research}, 2022.
+\newblock \doi{10.1103/physrevresearch.4.013231}.
+\newblock URL \url{https://doi.org/10.1103/physrevresearch.4.013231}.
+
+\bibitem[Daley et~al.(2022)Daley, Bloch, Kokail, Flannigan, Pearson, Troyer,
+  and Zoller]{daley2022practical}
+Andrew~J. Daley, Immanuel Bloch, Christian Kokail, Stuart Flannigan, Natalie
+  Pearson, Matthias Troyer, and P.~Zoller.
+\newblock Practical quantum advantage in quantum simulation.
+\newblock \emph{Nature}, 2022.
+\newblock \doi{10.1038/s41586-022-04940-6}.
+\newblock URL \url{https://doi.org/10.1038/s41586-022-04940-6}.
+
+\bibitem[Egger et~al.(2020)Egger, Gambella, Marecek, McFaddin, Mevissen,
+  Raymond, Simonetto, Woerner, and Yndurain]{egger2020quantum}
+Daniel~J. Egger, Claudio Gambella, Jakub Marecek, Scott McFaddin, Martin
+  Mevissen, Rudy Raymond, Andrea Simonetto, Stefan Woerner, and Elena Yndurain.
+\newblock Quantum computing for finance: State-of-the-art and future prospects.
+\newblock \emph{IEEE Transactions on Quantum Engineering}, 2020.
+\newblock \doi{10.1109/tqe.2020.3030314}.
+\newblock URL \url{https://doi.org/10.1109/tqe.2020.3030314}.
+
+\bibitem[Gilboa et~al.(2023)Gilboa, McClean, Soudry, and
+  McClean]{gilboa2023exponential}
+Dar Gilboa, Jarrod~R. McClean, Daniel Soudry, and Jarrod~R. McClean.
+\newblock Exponential quantum communication advantage in distributed inference
+  and learning.
+\newblock \emph{arXiv (Cornell University)}, 2023.
+\newblock \doi{10.48550/arxiv.2310.07136}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2310.07136}.
+
+\bibitem[Goto et~al.(2021)Goto, Tran, and Nakajima]{goto2021universal}
+Takahiro Goto, Quoc~Hoan Tran, and Kohei Nakajima.
+\newblock Universal approximation property of quantum machine learning models
+  in quantum-enhanced feature spaces.
+\newblock \emph{Physical Review Letters}, 2021.
+\newblock \doi{10.1103/physrevlett.127.090506}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.127.090506}.
+
+\bibitem[Haug et~al.(2023)Haug, Self, and Kim]{haug2023quantum}
+Tobias Haug, Chris~N. Self, and M.~S. Kim.
+\newblock Quantum machine learning of large datasets using randomized
+  measurements.
+\newblock \emph{Machine Learning Science and Technology}, 2023.
+\newblock \doi{10.1088/2632-2153/acb0b4}.
+\newblock URL \url{https://doi.org/10.1088/2632-2153/acb0b4}.
+
+\bibitem[Huang et~al.(2021{\natexlab{a}})Huang, Kueng, and
+  Preskill]{huang2021informationtheoretic}
+Hsin-Yuan Huang, Richard Kueng, and John Preskill.
+\newblock Information-theoretic bounds on quantum advantage in machine
+  learning.
+\newblock \emph{Physical Review Letters}, 2021{\natexlab{a}}.
+\newblock \doi{10.1103/physrevlett.126.190505}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.126.190505}.
+
+\bibitem[Huang et~al.(2021{\natexlab{b}})Huang, Wang, Song, Xu, Li, Wang, Guo,
+  Song, Liu, Zheng, Deng, Wang, Tian, and Fan]{huang2021quantum}
+Kaixuan Huang, Zheng‐An Wang, Chao Song, Kai Xu, Hekang Li, Zhen Wang,
+  Qiujiang Guo, Zixuan Song, Zhibo Liu, Dongning Zheng, Dong-Ling Deng,
+  H.~Wang, Jianguo Tian, and Heng Fan.
+\newblock Quantum generative adversarial networks with multiple superconducting
+  qubits.
+\newblock \emph{npj Quantum Information}, 2021{\natexlab{b}}.
+\newblock \doi{10.1038/s41534-021-00503-1}.
+\newblock URL \url{https://doi.org/10.1038/s41534-021-00503-1}.
+
+\bibitem[Jäger and Krems(2023)]{jager2023universal}
+Jonas Jäger and Roman~V. Krems.
+\newblock Universal expressiveness of variational quantum classifiers and
+  quantum kernels for support vector machines.
+\newblock \emph{Nature Communications}, 2023.
+\newblock \doi{10.1038/s41467-023-36144-5}.
+\newblock URL \url{https://doi.org/10.1038/s41467-023-36144-5}.
+
+\bibitem[Kalfus et~al.(2022)Kalfus, Ribeill, Rowlands, Krovi, Ohki, and
+  Govia]{kalfus2022hilbert}
+William~D. Kalfus, Guilhem Ribeill, Graham~E. Rowlands, Hari Krovi, Thomas
+  Ohki, and Luke C.~G. Govia.
+\newblock Hilbert space as a computational resource in reservoir computing.
+\newblock \emph{Physical Review Research}, 2022.
+\newblock \doi{10.1103/physrevresearch.4.033007}.
+\newblock URL \url{https://doi.org/10.1103/physrevresearch.4.033007}.
+
+\bibitem[Kiani et~al.(2022)Kiani, Palma, Marvian, Liu, and
+  Lloyd]{kiani2022quantum}
+Bobak~T. Kiani, Giacomo~De Palma, Milad Marvian, Zi-Wen Liu, and Seth Lloyd.
+\newblock Learning quantum data with the quantum earth mover’s distance.
+\newblock \emph{Quantum Science and Technology}, 2022.
+\newblock \doi{10.1088/2058-9565/ac79c9}.
+\newblock URL \url{https://doi.org/10.1088/2058-9565/ac79c9}.
+
+\bibitem[Kiwit et~al.(2024)Kiwit, Wolf, Marso, Ross, Lorenz, Riofrío, and
+  Luckow]{kiwit2024benchmarking}
+Florian~J. Kiwit, Maximilian~A. Wolf, Marwa Marso, Philipp Ross, J.~Lorenz,
+  Carlos~A. Riofrío, and André Luckow.
+\newblock Benchmarking quantum generative learning: A study on scalability and
+  noise resilience using quark.
+\newblock \emph{KI - Künstliche Intelligenz}, 2024.
+\newblock \doi{10.1007/s13218-024-00864-7}.
+\newblock URL \url{https://doi.org/10.1007/s13218-024-00864-7}.
+
+\bibitem[Li et~al.(2020)Li, Zhang, and Xia]{li2020quantum}
+Tong Li, Shibin Zhang, and Jinyue Xia.
+\newblock Quantum generative adversarial network: A survey.
+\newblock \emph{Computers, materials \& continua/Computers, materials \&
+  continua (Print)}, 2020.
+\newblock \doi{10.32604/cmc.2020.010551}.
+\newblock URL \url{https://doi.org/10.32604/cmc.2020.010551}.
+
+\bibitem[Lin et~al.(2020)Lin, Zhang, Zhang, Li, Wang, and
+  Bao]{lin2020quantumenhanced}
+Jie Lin, Dan-Bo Zhang, Shuo Zhang, Tan Li, Xiang Wang, and Wan‐Su Bao.
+\newblock Quantum-enhanced least-square support vector machine: Simplified
+  quantum algorithm and sparse solutions.
+\newblock \emph{Physics Letters A}, 2020.
+\newblock \doi{10.1016/j.physleta.2020.126590}.
+\newblock URL \url{https://doi.org/10.1016/j.physleta.2020.126590}.
+
+\bibitem[Liu et~al.(2024)Liu, Chen, Guo, Song, Shi, Gan, Wu, Wu, Fu, Liu, Chen,
+  Zhao, Yang, and Gao]{liu2024verifying}
+Yong Liu, Yaojian Chen, Chu Guo, Jiawei Song, Xinmin Shi, Lin Gan, Wenzhao Wu,
+  Wei Wu, Haohuan Fu, Xin Liu, Dexun Chen, Zhifeng Zhao, Guangwen Yang, and
+  Jiangang Gao.
+\newblock Verifying quantum advantage experiments with multiple amplitude
+  tensor network contraction.
+\newblock \emph{Physical Review Letters}, 2024.
+\newblock \doi{10.1103/physrevlett.132.030601}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.132.030601}.
+
+\bibitem[Liu et~al.(2021)Liu, Arunachalam, and Temme]{liu2021rigorous}
+Yunchao Liu, Srinivasan Arunachalam, and Kristan Temme.
+\newblock A rigorous and robust quantum speed-up in supervised machine
+  learning.
+\newblock \emph{Nature Physics}, 2021.
+\newblock \doi{10.1038/s41567-021-01287-z}.
+\newblock URL \url{https://doi.org/10.1038/s41567-021-01287-z}.
+
+\bibitem[Marcantonio et~al.(2023)Marcantonio, Incudini, Tezza, and
+  Grossi]{marcantonio2023quantum}
+Francesco~Di Marcantonio, Massimiliano Incudini, Davide Tezza, and Michele
+  Grossi.
+\newblock Quantum advantage seeker with kernels (quask): a software framework
+  to speed up the research in quantum machine learning.
+\newblock \emph{Quantum Machine Intelligence}, 2023.
+\newblock \doi{10.1007/s42484-023-00107-2}.
+\newblock URL \url{https://doi.org/10.1007/s42484-023-00107-2}.
+
+\bibitem[Mensa et~al.(2023)Mensa, Sahin, Tacchino, Barkoutsos, and
+  Tavernelli]{mensa2023quantum}
+Stefano Mensa, Emre Sahin, Francesco Tacchino, Panagiotis~Kl. Barkoutsos, and
+  Ivano Tavernelli.
+\newblock Quantum machine learning framework for virtual screening in drug
+  discovery: a prospective quantum advantage.
+\newblock \emph{Machine Learning Science and Technology}, 2023.
+\newblock \doi{10.1088/2632-2153/acb900}.
+\newblock URL \url{https://doi.org/10.1088/2632-2153/acb900}.
+
+\bibitem[Mizuno and Komatsuzaki(2024)]{mizuno2024finding}
+Yuta Mizuno and Tamiki Komatsuzaki.
+\newblock Finding optimal pathways in chemical reaction networks using ising
+  machines.
+\newblock \emph{Physical Review Research}, 2024.
+\newblock \doi{10.1103/physrevresearch.6.013115}.
+\newblock URL \url{https://doi.org/10.1103/physrevresearch.6.013115}.
+
+\bibitem[Piatrenka and Rusek(2022)]{piatrenka2022quantum}
+Ilya Piatrenka and Marian Rusek.
+\newblock Quantum variational multi-class classifier for the iris data set.
+\newblock \emph{Lecture notes in computer science}, 2022.
+\newblock \doi{10.1007/978-3-031-08760-8_21}.
+\newblock URL \url{https://doi.org/10.1007/978-3-031-08760-8_21}.
+
+\bibitem[Pulicharla(2023)]{pulicharla2023hybrid}
+Mohan~Raja Pulicharla.
+\newblock Hybrid quantum-classical machine learning models: Powering the future
+  of ai.
+\newblock \emph{Journal of Science \& Technology}, 2023.
+\newblock \doi{10.55662/jst.2023.4102}.
+\newblock URL \url{https://doi.org/10.55662/jst.2023.4102}.
+
+\bibitem[Raubitzek and Mallinger(2023)]{raubitzek2023applicability}
+Sebastian Raubitzek and Kevin Mallinger.
+\newblock On the applicability of quantum machine learning.
+\newblock \emph{Entropy}, 2023.
+\newblock \doi{10.3390/e25070992}.
+\newblock URL \url{https://doi.org/10.3390/e25070992}.
+
+\bibitem[Sankar et~al.(2024)Sankar, Scherer, Kako, Reifenstein, Ghadermarzy,
+  Krayenhoff, Inui, Ng, Onodera, Ronagh, and Yamamoto]{sankar2024benchmarking}
+Krishanu Sankar, Artur Scherer, Satoshi Kako, Sam Reifenstein, Navid
+  Ghadermarzy, Willem~B. Krayenhoff, Yoshitaka Inui, Edwin Ng, Tatsuhiro
+  Onodera, Pooya Ronagh, and Y.~Yamamoto.
+\newblock A benchmarking study of quantum algorithms for combinatorial
+  optimization.
+\newblock \emph{npj Quantum Information}, 2024.
+\newblock \doi{10.1038/s41534-024-00856-3}.
+\newblock URL \url{https://doi.org/10.1038/s41534-024-00856-3}.
+
+\bibitem[Shukla and Vedula(2024)]{shukla2024efficient}
+Alok Shukla and Prakash Vedula.
+\newblock An efficient quantum algorithm for preparation of uniform quantum
+  superposition states.
+\newblock In \emph{Quantum Information Processing}, 2024.
+\newblock \doi{10.1007/s11128-024-04258-4}.
+\newblock URL \url{https://doi.org/10.1007/s11128-024-04258-4}.
+
+\bibitem[Slattery et~al.(2023)Slattery, Shaydulin, Chakrabarti, Pistoia,
+  Khairy, and Wild]{slattery2023numerical}
+Lucas Slattery, Ruslan Shaydulin, Shouvanik Chakrabarti, Marco Pistoia, Sami
+  Khairy, and Stefan~M. Wild.
+\newblock Numerical evidence against advantage with quantum fidelity kernels on
+  classical data.
+\newblock \emph{Physical review. A/Physical review, A}, 2023.
+\newblock \doi{10.1103/physreva.107.062417}.
+\newblock URL \url{https://doi.org/10.1103/physreva.107.062417}.
+
+\bibitem[Thanasilp et~al.(2024)Thanasilp, Wang, Cerezo, and
+  Holmes]{thanasilp2024exponential}
+Supanut Thanasilp, Samson Wang, M.~Cerezo, and Zoë Holmes.
+\newblock Exponential concentration in quantum kernel methods.
+\newblock \emph{Nature Communications}, 2024.
+\newblock \doi{10.1038/s41467-024-49287-w}.
+\newblock URL \url{https://doi.org/10.1038/s41467-024-49287-w}.
+
+\bibitem[Wang et~al.(2024)Wang, Qi, Ferrie, and Dong]{wang2024trainability}
+Yabo Wang, Bo~Qi, Christopher Ferrie, and Daoyi Dong.
+\newblock Trainability enhancement of parameterized quantum circuits via
+  reduced-domain parameter initialization.
+\newblock \emph{Physical Review Applied}, 2024.
+\newblock \doi{10.1103/physrevapplied.22.054005}.
+\newblock URL \url{https://doi.org/10.1103/physrevapplied.22.054005}.
+
+\bibitem[Zeguendry et~al.(2023)Zeguendry, Jarir, and
+  Quafafou]{zeguendry2023quantum}
+Amine Zeguendry, Zahi Jarir, and Mohamed Quafafou.
+\newblock Quantum machine learning: A review and case studies.
+\newblock \emph{Entropy}, 2023.
+\newblock \doi{10.3390/e25020287}.
+\newblock URL \url{https://doi.org/10.3390/e25020287}.
+
+\bibitem[Zhou et~al.(2022)Zhou, Zhang, Xie, and Wu]{zhou2022hybrid}
+Nanrun Zhou, Tianfeng Zhang, Xinwen Xie, and Junyun Wu.
+\newblock Hybrid quantum–classical generative adversarial networks for image
+  generation via learning discrete distribution.
+\newblock In \emph{Signal Processing Image Communication}, 2022.
+\newblock \doi{10.1016/j.image.2022.116891}.
+\newblock URL \url{https://doi.org/10.1016/j.image.2022.116891}.
+
+\bibitem[Zhu et~al.(2022)Zhu, Johri, Bacon, Esencan, Kim, Muir, Murgai, Nguyen,
+  Pisenti, Schouela, Sosnova, and Wright]{zhu2022generative}
+Elton~Yechao Zhu, Sonika Johri, Dave Bacon, Mert Esencan, Jungsang Kim, Mark
+  Muir, Nikhil Murgai, Jason Nguyen, Neal~C. Pisenti, Adam Schouela, Ksenia
+  Sosnova, and Ken Wright.
+\newblock Generative quantum learning of joint probability distribution
+  functions.
+\newblock \emph{Physical Review Research}, 2022.
+\newblock \doi{10.1103/physrevresearch.4.043092}.
+\newblock URL \url{https://doi.org/10.1103/physrevresearch.4.043092}.
+
+\end{thebibliography}

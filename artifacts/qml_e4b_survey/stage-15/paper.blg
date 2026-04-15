@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Repeated entry---line 262 of file references.bib
+ : @article{chen2022quantum
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 370 of file references.bib
+ : @article{kiani2022quantum
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in chakraborty2020analytical
+You've used 50 entries,
+            2773 wiz_defined-function locations,
+            880 strings with 20808 characters,
+and the built_in function-call counts, 34389 in all, are:
+= -- 2737
+> -- 3703
+< -- 6
++ -- 1238
+- -- 1185
+* -- 3354
+:= -- 5864
+add.period$ -- 250
+call.type$ -- 50
+change.case$ -- 545
+chr.to.int$ -- 47
+cite$ -- 101
+duplicate$ -- 1002
+empty$ -- 1565
+format.name$ -- 1245
+if$ -- 6726
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 50
+newline$ -- 358
+num.names$ -- 200
+pop$ -- 1001
+preamble$ -- 1
+purify$ -- 495
+quote$ -- 0
+skip$ -- 997
+stack$ -- 0
+substring$ -- 100
+swap$ -- 57
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 550
+warning$ -- 1
+while$ -- 150
+width$ -- 0
+write$ -- 806
+(There were 2 error messages)

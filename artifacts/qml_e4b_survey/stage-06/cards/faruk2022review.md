@@ -1,0 +1,13 @@
+# A Review of Quantum Cybersecurity: Threats, Risks and Opportunities
+
+*source: abstract_only | tokens: 148*
+
+This paper functions as a high-level **Survey/Review** of the burgeoning field of quantum cybersecurity, synthesizing foundational studies to map the landscape of quantum threats and defensive opportunities. Its scope is deliberately broad, aiming to provide a comprehensive, illustrative description of the state-of-the-art across the entire cybersecurity spectrum impacted by quantum computation.
+
+The review establishes a clear dichotomy: quantum computing promises an *exponential advantage* for specific computational problems, making cybersecurity a critical, near-future bottleneck for global digital infrastructure. The paper’s primary contribution is its systematic synthesis, organizing the literature into distinct categories of threats and solutions rather than focusing on a single technical domain.
+
+The core structure revolves around identifying two major thematic patterns. First, the **Threat Landscape**, which centers on the vulnerability of current public-key cryptography standards (e.g., RSA and Elliptic Curve Cryptography) to quantum algorithms like Shor's algorithm. Second, the **Defensive Opportunity**, which reviews post-quantum cryptography (PQC) candidates and other quantum-resistant measures. While the provided abstract does not cite specific benchmark numbers or ML datasets, the review implicitly frames the need for quantum-safe cryptographic primitives that will underpin any future quantum-enhanced machine learning models.
+
+A key pattern identified is the urgent transition required from theoretical quantum advantage to practical, deployable quantum resistance. The paper synthesizes the necessary groundwork by reviewing both quantum computational models and the cryptographic countermeasures.
+
+The primary gap highlighted by the review is the need for continued, systematic integration of these quantum security principles into practical, real-world ML pipelines. While the paper surveys the *threat* to data integrity, it serves as a foundational literature anchor, establishing the pre-requisite security context for any subsequent research focusing on quantum advantage in ML, thereby guiding future work toward quantum-safe model deployment. It is less a technical deep-dive and more a critical roadmap defining the scope and urgency of the field.

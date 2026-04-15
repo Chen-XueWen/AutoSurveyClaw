@@ -1,0 +1,15 @@
+{
+  "stage_id": "01-topic_init",
+  "run_id": "survey-20260415-103649-399082",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "goal.md"
+  ],
+  "evidence_refs": [
+    "stage-01/goal.md"
+  ],
+  "error": null,
+  "ts": "2026-04-15T10:37:38+00:00",
+  "next_stage": 2
+}

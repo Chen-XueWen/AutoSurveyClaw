@@ -1,0 +1,507 @@
+{
+  "summary": {
+    "total": 55,
+    "verified": 55,
+    "suspicious": 0,
+    "hallucinated": 0,
+    "skipped": 0,
+    "integrity_score": 1.0
+  },
+  "results": [
+    {
+      "cite_key": "alzubaidi2021review",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Review of deep learning: concepts, CNN architectures, challenges, applications, future directions'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "karniadakis2021physicsinformed",
+      "title": "Physics-informed machine learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Physics-informed machine learning'",
+      "relevance_score": 0.4
+    },
+    {
+      "cite_key": "kuhne2020electronic",
+      "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations'",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "cerezo2021variational",
+      "title": "Variational quantum algorithms",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Variational quantum algorithms'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "cervantes2020comprehensive",
+      "title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A comprehensive survey on support vector machine classification: Applications, challenges and trends'",
+      "relevance_score": 0.4
+    },
+    {
+      "cite_key": "cuomo2022scientific",
+      "title": "Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "bharti2022noisy",
+      "title": "Noisy intermediate-scale quantum algorithms",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Noisy intermediate-scale quantum algorithms'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "barca2020recent",
+      "title": "Recent developments in the general atomic and molecular electronic structure system",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Recent developments in the general atomic and molecular electronic structure system'",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "cerezo2021cost",
+      "title": "Cost function dependent barren plateaus in shallow parametrized quantum circuits",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Cost function dependent barren plateaus in shallow parametrized quantum circuits'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "srinivasu2021classification",
+      "title": "Classification of Skin Disease Using Deep Learning Neural Networks with MobileNet V2 and LSTM",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Classification of Skin Disease Using Deep Learning Neural Networks with MobileNet V2 and LSTM'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "daley2022practical",
+      "title": "Practical quantum advantage in quantum simulation",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Practical quantum advantage in quantum simulation'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "cerezo2022challenges",
+      "title": "Challenges and opportunities in quantum machine learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Challenges and opportunities in quantum machine learning'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "musaelian2023local",
+      "title": "Learning local equivariant representations for large-scale atomistic dynamics",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Learning local equivariant representations for large-scale atomistic dynamics'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "altman2021quantum",
+      "title": "Quantum Simulators: Architectures and Opportunities",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Simulators: Architectures and Opportunities'",
+      "relevance_score": 0.4
+    },
+    {
+      "cite_key": "liu2021rigorous",
+      "title": "A rigorous and robust quantum speed-up in supervised machine learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A rigorous and robust quantum speed-up in supervised machine learning'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "moudgalya2022quantum",
+      "title": "Quantum many-body scars and Hilbert space fragmentation: a review of exact results",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum many-body scars and Hilbert space fragmentation: a review of exact results'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "azuma2023quantum",
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum repeaters: From quantum networks to the quantum internet'",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "egger2020quantum",
+      "title": "Quantum Computing for Finance: State-of-the-Art and Future Prospects",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Computing for Finance: State-of-the-Art and Future Prospects'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "huang2021informationtheoretic",
+      "title": "Information-theoretic bounds on quantum advantage in machine learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Information-Theoretic Bounds on Quantum Advantage in Machine Learning'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "bharti2021noisy",
+      "title": "Noisy intermediate-scale quantum (NISQ) algorithms",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via DataCite: 'Noisy intermediate-scale quantum (NISQ) algorithms'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "zeguendry2023quantum",
+      "title": "Quantum Machine Learning: A Review and Case Studies",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Machine Learning: A Review and Case Studies'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "araujo2021divideandconquer",
+      "title": "A divide-and-conquer algorithm for quantum state preparation",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A divide-and-conquer algorithm for quantum state preparation'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "zhou2022hybrid",
+      "title": "Hybrid quantum\u2013classical generative adversarial networks for image generation via learning discrete distribution",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Hybrid quantum\u2013classical generative adversarial networks for image generation via learning discrete distribution'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "chen2022quantum",
+      "title": "Quantum convolutional neural networks for high energy physics data analysis",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum convolutional neural networks for high energy physics data analysis'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "jager2023universal",
+      "title": "Universal expressiveness of variational quantum classifiers and quantum kernels for support vector machines",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Universal expressiveness of variational quantum classifiers and quantum kernels for support vector machines'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "goto2021universal",
+      "title": "Universal Approximation Property of Quantum Machine Learning Models in Quantum-Enhanced Feature Spaces",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Universal Approximation Property of Quantum Machine Learning Models in Quantum-Enhanced Feature Spaces'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "thanasilp2024exponential",
+      "title": "Exponential concentration in quantum kernel methods",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Exponential concentration in quantum kernel methods'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "kiani2022quantum",
+      "title": "Learning quantum data with the quantum earth mover\u2019s distance",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Learning quantum data with the quantum earth mover\u2019s distance'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "mensa2023quantum",
+      "title": "Quantum machine learning framework for virtual screening in drug discovery: a prospective quantum advantage",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum machine learning framework for virtual screening in drug discovery: a prospective quantum advantage'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "chen2022quantum",
+      "title": "Quantum advantages for Pauli channel estimation",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum advantages for Pauli channel estimation'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "haug2023quantum",
+      "title": "Quantum machine learning of large datasets using randomized measurements",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum machine learning of large datasets using randomized measurements'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "zhu2022generative",
+      "title": "Generative quantum learning of joint probability distribution functions",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Generative quantum learning of joint probability distribution functions'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "huang2021quantum",
+      "title": "Quantum generative adversarial networks with multiple superconducting qubits",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum generative adversarial networks with multiple superconducting qubits'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "pulicharla2023hybrid",
+      "title": "Hybrid Quantum-Classical Machine Learning Models: Powering the Future of AI",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Hybrid Quantum-Classical Machine Learning Models: Powering the Future of AI'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "kalfus2022hilbert",
+      "title": "Hilbert space as a computational resource in reservoir computing",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Hilbert space as a computational resource in reservoir computing'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "wang2024trainability",
+      "title": "Trainability enhancement of parameterized quantum circuits via reduced-domain parameter initialization",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Trainability enhancement of parameterized quantum circuits via reduced-domain parameter initialization'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "shukla2024efficient",
+      "title": "An efficient quantum algorithm for preparation of uniform quantum superposition states",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'An efficient quantum algorithm for preparation of uniform quantum superposition states'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "li2020quantum",
+      "title": "Quantum Generative Adversarial Network: A Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Generative Adversarial Network: A Survey'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "butt2024quantuminspired",
+      "title": "Quantum-Inspired Resource Optimization for 6G Networks: A Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum-Inspired Resource Optimization for 6G Networks: A Survey'",
+      "relevance_score": 0.4
+    },
+    {
+      "cite_key": "slattery2023numerical",
+      "title": "Numerical evidence against advantage with quantum fidelity kernels on classical data",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Numerical evidence against advantage with quantum fidelity kernels on classical data'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "raubitzek2023applicability",
+      "title": "On the Applicability of Quantum Machine Learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'On the Applicability of Quantum Machine Learning'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "kiani2022quantum",
+      "title": "Quantum advantage for differential equation analysis",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum advantage for differential equation analysis'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "lin2020quantumenhanced",
+      "title": "Quantum-enhanced least-square support vector machine: Simplified quantum algorithm and sparse solutions",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum-enhanced least-square support vector machine: Simplified quantum algorithm and sparse solutions'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "chakraborty2020analytical",
+      "title": "An Analytical Review of Quantum Neural Network Models and Relevant Research",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'An Analytical Review of Quantum Neural Network Models and Relevant Research'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "liu2024verifying",
+      "title": "Verifying Quantum Advantage Experiments with Multiple Amplitude Tensor Network Contraction",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Verifying Quantum Advantage Experiments with Multiple Amplitude Tensor Network Contraction'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "marcantonio2023quantum",
+      "title": "Quantum Advantage Seeker with Kernels (QuASK): a software framework to speed up the research in quantum machine learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Advantage Seeker with Kernels (QuASK): a software framework to speed up the research in quantum machine learning'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "piatrenka2022quantum",
+      "title": "Quantum Variational Multi-class Classifier for the Iris Data Set",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum Variational Multi-class Classifier for\u00a0the\u00a0Iris Data Set'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "pan2022deep",
+      "title": "Deep Learning-Based Quantum State Tomography With Imperfect Measurement",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Deep Learning-Based Quantum State Tomography With Imperfect Measurement'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "kiwit2024benchmarking",
+      "title": "Benchmarking Quantum Generative Learning: A Study on Scalability and Noise Resilience using QUARK",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Benchmarking Quantum Generative Learning: A Study on Scalability and Noise Resilience using QUARK'",
+      "relevance_score": 0.85
+    },
+    {
+      "cite_key": "zhou2022timestamp",
+      "title": "Timestamp boson sampling",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Timestamp boson sampling'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "sankar2024benchmarking",
+      "title": "A benchmarking study of quantum algorithms for combinatorial optimization",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A benchmarking study of quantum algorithms for combinatorial optimization'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "mizuno2024finding",
+      "title": "Finding optimal pathways in chemical reaction networks using Ising machines",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Finding optimal pathways in chemical reaction networks using Ising machines'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "myers2023quantum",
+      "title": "Quantum simulation costs for Suzuki-Trotter decomposition of quantum many-body lattice models",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Quantum simulation costs for Suzuki-Trotter decomposition of quantum many-body lattice models'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "gilboa2023exponential",
+      "title": "Exponential Quantum Communication Advantage in Distributed Inference and Learning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Exponential Quantum Communication Advantage in Distributed Inference and Learning'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "zhang2022generative",
+      "title": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'BioGPT: generative pre-trained transformer for biomedical text generation and mining'",
+      "relevance_score": 0.0
+    }
+  ]
+}

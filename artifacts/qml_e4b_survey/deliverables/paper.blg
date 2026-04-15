@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "altman2021quantum"
+Warning--empty journal in chakraborty2020analytical
+You've used 37 entries,
+            2773 wiz_defined-function locations,
+            807 strings with 15004 characters,
+and the built_in function-call counts, 21552 in all, are:
+= -- 1791
+> -- 2035
+< -- 6
++ -- 681
+- -- 642
+* -- 2004
+:= -- 3637
+add.period$ -- 185
+call.type$ -- 37
+change.case$ -- 325
+chr.to.int$ -- 35
+cite$ -- 75
+duplicate$ -- 742
+empty$ -- 1162
+format.name$ -- 689
+if$ -- 4278
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 37
+newline$ -- 267
+num.names$ -- 148
+pop$ -- 587
+preamble$ -- 1
+purify$ -- 288
+quote$ -- 0
+skip$ -- 663
+stack$ -- 0
+substring$ -- 74
+swap$ -- 42
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 407
+warning$ -- 1
+while$ -- 111
+width$ -- 0
+write$ -- 598
+(There were 2 warnings)

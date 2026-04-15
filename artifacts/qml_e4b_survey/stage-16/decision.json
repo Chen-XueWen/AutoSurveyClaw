@@ -1,0 +1,19 @@
+{
+  "stage_id": "16-citation_verify",
+  "run_id": "survey-20260415-103649-399082",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "verification_report.json",
+    "references_verified.bib",
+    "paper_final_verified.md"
+  ],
+  "evidence_refs": [
+    "stage-16/verification_report.json",
+    "stage-16/references_verified.bib",
+    "stage-16/paper_final_verified.md"
+  ],
+  "error": null,
+  "ts": "2026-04-15T11:26:16+00:00",
+  "next_stage": null
+}

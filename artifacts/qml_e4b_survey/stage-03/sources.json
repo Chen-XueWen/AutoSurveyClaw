@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "S001",
+      "name": "Quantum Algorithms for Machine Learning (Review)",
+      "type": "Review Article",
+      "url": "https://arxiv.org/abs/2305.xxxx",
+      "status": "Pending Verification",
+      "query": "\"Exponential quantum advantage\" AND \"machine learning\" AND \"complexity theory\"",
+      "verified_at": null
+    },
+    {
+      "id": "S002",
+      "name": "Quantum Kernel Methods and Feature Space Mapping",
+      "type": "Journal Paper",
+      "url": "https://doi.org/10.xxxx/qml.kernel",
+      "status": "To Be Triangulated",
+      "query": "\"Quantum Kernel Estimation\" AND \"expressivity\" AND \"super-polynomial\"",
+      "verified_at": null
+    },
+    {
+      "id": "S003",
+      "name": "Variational Quantum Circuits for Quantum Classification",
+      "type": "Conference Proceeding",
+      "url": "https://ieeexplore.ieee.org/document/xxxx",
+      "status": "Requires Deep Dive",
+      "query": "\"Variational Quantum Circuit\" AND \"QSVM\" AND \"convergence rate\"",
+      "verified_at": null
+    },
+    {
+      "id": "S004",
+      "name": "Resource Analysis for Fault-Tolerant Quantum ML",
+      "type": "Theoretical Paper",
+      "url": "https://arxiv.org/abs/2401.xxxx",
+      "status": "High Priority",
+      "query": "\"Fault-tolerant quantum computing\" AND \"ML resource estimation\" AND \"qubit count\"",
+      "verified_at": null
+    },
+    {
+      "id": "S005",
+      "name": "Quantum Data Encoding Schemes Comparison",
+      "type": "Technical Report",
+      "url": "https://www.quantuminfo.org/report/encoding",
+      "status": "Background Reading",
+      "query": "\"Quantum data encoding\" AND \"amplitude encoding\" AND \"angle encoding\" AND \"comparison\"",
+      "verified_at": null
+    }
+  ],
+  "count": 5,
+  "generated": "2026-04-15T10:39:05+00:00"
+}

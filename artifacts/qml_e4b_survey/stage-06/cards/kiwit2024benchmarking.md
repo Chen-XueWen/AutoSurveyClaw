@@ -1,0 +1,13 @@
+# Benchmarking Quantum Generative Learning: A Study on Scalability and Noise Resilience using QUARK
+
+*source: arxiv_html | tokens: 6225*
+
+This paper functions as a methodological study, extending the **QUARK** framework (Finžgar et al., 2022) to rigorously benchmark the scalability and noise resilience of Quantum Machine Learning (QML) generative models. The central problem addressed is the gap between theoretical QML potential and practical industrial application, specifically quantifying how QML performance degrades under realistic noise and resource constraints.
+
+The technical approach involves comparing two primary quantum generative models: the **Quantum Circuit Born Machine (QCBM)** and the **Quantum Generative Adversarial Network (QGAN)**. The authors analyze performance using a copula circuit fitted to a dataset resembling the letter 'X'.
+
+Regarding **scalability**, the study highlights a critical difference in resource scaling. For the QCBM, maintaining a bounded statistical error requires the number of circuit executions to scale exponentially with the number of qubits ($2^n/n_{\text{shots}}$). In contrast, the QGAN exhibits a significantly better scaling profile. Quantitatively, the QGAN achieves convergence with *more than one order of magnitude fewer circuit executions* than the QCBM, and its final convergence limit is markedly lower ($C_{\text{KL}}^{\text{conv}} = 0.14 \pm 0.01$) compared to the QCBM's limit ($C_{\text{KL}}^{\text{conv}} = 0.49 \pm 0.13$).
+
+For **noise resilience**, the authors test the QCBM's robustness against simulated hardware imperfections using the IonQ Harmony gate set. While the QCBM maintains performance below the random baseline even with readout errors up to $p_{10} = p_{01} = 0.1$, the impact of two-qubit depolarizing errors is more severe. Specifically, for 12 qubits, the model performance degrades to the random baseline at a depolarizing error rate of $p_{\text{depol}} = 0.1$.
+
+The framework's modularity is a key contribution, providing a standardized, reproducible platform for benchmarking. Limitations noted include the focus only on readout and two-qubit depolarizing errors, excluding phase errors and crosstalk, and the use of CMA-ES for QCBM training, leaving gradient-based optimization paths unexplored. Overall, the paper demonstrates that QGANs offer superior computational efficiency and provides quantitative metrics defining the current hardware limits for QML generative tasks.

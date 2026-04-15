@@ -1,0 +1,20 @@
+{
+  "run_id": "survey-20260415-103649-399082",
+  "stages_executed": 2,
+  "stages_done": 2,
+  "stages_paused": 0,
+  "stages_blocked": 0,
+  "stages_failed": 0,
+  "degraded": false,
+  "from_stage": 15,
+  "final_stage": 16,
+  "final_status": "done",
+  "generated": "2026-04-15T11:26:16+00:00",
+  "content_metrics": {
+    "template_ratio": 0.0,
+    "citation_verify_score": 1.0,
+    "total_citations": 55,
+    "verified_citations": 55,
+    "degraded_sources": []
+  }
+}

@@ -1,0 +1,54 @@
+search_plan:
+  objective: Systematic review synthesizing theoretical proofs, empirical feasibility,
+    and recognized limitations.
+  rigor_level: $\ge 4.0$
+  search_phases:
+  - expected_output: Identification of the hardness basis for the advantage claim.
+    goal: Identify rigorous mathematical proofs of quantum advantage.
+    keywords:
+    - quantum complexity theory
+    - exponential speedup
+    - quantum advantage proof
+    - super-polynomial
+    phase_name: Foundational Theory & Proofs
+    search_strategy: Combination of complexity theory publications and QML literature.
+  - expected_output: A comparative table of best-case/worst-case complexity for major
+      algorithms.
+    goal: Systematically compare major QML paradigms based on formal scaling laws.
+    keywords:
+    - Quantum Kernel Estimation scaling
+    - QSVM complexity bounds
+    - VQC theoretical lower bound
+    phase_name: Algorithmic Comparison & Scaling
+    search_strategy: Comparative analysis of algorithmic complexity analysis (upper/lower
+      bounds).
+  - expected_output: A taxonomy of encoding schemes and their known limitations.
+    goal: Assess the impact of data representation on achieved advantage.
+    keywords:
+    - quantum data encoding expressivity
+    - feature map limitations
+    - high-dimensional quantum embedding
+    phase_name: Data Geometry & Encoding Analysis
+    search_strategy: Focused search on information theory applied to quantum data
+      mapping.
+  - expected_output: A quantifiable roadmap (qubit count, coherence time) for practical
+      realization.
+    goal: Bridge the gap from theory to hardware reality.
+    keywords:
+    - fault-tolerant quantum computing ML
+    - resource estimation QML
+    - decoherence impact quantum advantage
+    phase_name: Practical Feasibility & Roadmap
+    search_strategy: Literature focusing on quantum hardware requirements and error
+      correction overheads.
+  synthesis_directives:
+  - detail: Must rigorously distinguish between proven advantage, polynomial advantage,
+      and NISQ simulation artifacts. (Addresses 'NISQ Illusion' Trap).
+    directive: Critical Filtering
+  - detail: Must compare all identified schemes (Amplitude, Kernel, VQC) against each
+      other, not just against classical methods. (Addresses 'Over-Reliance' Risk).
+    directive: Comparative Analysis
+  - detail: Organize findings by mathematical tool/objective function (Classification,
+      Regression, Optimization) to ensure comprehensive coverage.
+    directive: Structure
+  topic: Exponential Quantum Advantage in Machine Learning

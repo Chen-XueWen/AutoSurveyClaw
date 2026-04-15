@@ -1,0 +1,105 @@
+{
+  "section_analysis": [
+    {
+      "heading": "Quantum Advantage in Machine Learning: A Systematic Taxonomy of Computational Bottlenecks",
+      "word_count": 2181,
+      "canonical": ""
+    },
+    {
+      "heading": "Methodology: Systematic Literature Search and Curation",
+      "word_count": 410,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Taxonomy and Categorization of Advantage Sources",
+      "word_count": 624,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Detailed Review of Methodological Approaches",
+      "word_count": 2065,
+      "canonical": ""
+    },
+    {
+      "heading": "Open Challenges and Future Directions",
+      "word_count": 893,
+      "canonical": "open challenges and future directions",
+      "target": [
+        1500,
+        2500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Comparative Analysis and Discussion",
+      "word_count": 1553,
+      "canonical": "comparative analysis and discussion",
+      "target": [
+        2000,
+        3000
+      ],
+      "status": "short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Open Challenges and Future Directions",
+      "word_count": 619,
+      "canonical": "open challenges and future directions",
+      "target": [
+        1500,
+        2500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Limitations of This Survey",
+      "word_count": 109,
+      "canonical": "limitations",
+      "target": [
+        200,
+        350
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Conclusion",
+      "word_count": 186,
+      "canonical": "conclusion",
+      "target": [
+        300,
+        500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    }
+  ],
+  "overall_warnings": [
+    "Open Challenges and Future Directions is severely under target (893 words, target 1500-2500)",
+    "Comparative Analysis and Discussion is under target (1553 words, target 2000-3000)",
+    "Open Challenges and Future Directions is severely under target (619 words, target 1500-2500)",
+    "Limitations of This Survey is severely under target (109 words, target 200-350)",
+    "Conclusion is severely under target (186 words, target 300-500)",
+    "Citation recency low: only 8/53 (15%) from last 3 years (target: >=30%%)",
+    "High weasel-word count: 36 instances (consider replacing vague words with precise language)"
+  ],
+  "revision_directives": [
+    "EXPAND Open Challenges and Future Directions from 893 to 1500+ words. Add substantive content — do NOT pad with filler.",
+    "Expand Comparative Analysis and Discussion from 1553 to 2000+ words.",
+    "EXPAND Open Challenges and Future Directions from 619 to 1500+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Limitations of This Survey from 109 to 200+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Conclusion from 186 to 300+ words. Add substantive content — do NOT pad with filler.",
+    "Replace vague hedging words (various, several, quite, fairly, rather, somewhat) with precise quantities or remove them."
+  ]
+}
