@@ -18,8 +18,7 @@ See config.yaml for configuration and the output in artifacts and demo folder.
   <img src="image/openclaw_usage.png" width="15%" />
 </p>
 
-*Openclaw can fix any syntax error produced by the weaker model (Gemma4:e4b) which might break the pipeline as seen in picture 2.
-
+_*Openclaw can fix any syntax error produced by the weaker model (Gemma4:e4b) which might break the pipeline as seen in picture 2._
 
 ## Features
 
