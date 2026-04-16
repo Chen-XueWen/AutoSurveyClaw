@@ -9,13 +9,17 @@
 
 AutoSurveyClaw is an autonomous pipeline that transforms a research topic into a publication-ready survey paper. Specify a topic, configure your LLM, and the pipeline handles literature search, synthesis, taxonomy generation, multi-pass drafting, peer review simulation, and LaTeX export — fully unattended.
 
-**[LATEST UPDATE] RUN USING GEMMA4:E4B MODEL and COMPATIBLE WITH OPENCLAW AS SEEN IN THE SCREENSHOT BELOW**
+**[LATEST UPDATE] RUN USING GEMMA4:E4B MODEL and COMPATIBLE WITH OPENCLAW (RECOMMENDED USAGE\*) AS SEEN IN THE SCREENSHOT BELOW**
 
-See config_qml_e4b.yaml for configuration and the output in artifacts and demo folder
+See config_qml_e4b.yaml for configuration and the output in artifacts and demo folder. 
 
 <p align="center">
-  <img src="image/telegram_openclaw.png" alt="AutoSurveyClaw mascot" width="600"/>
+  <img src="image/telegram_openclaw.png" alt="AutoSurveyClaw mascot" width="49%" />
+  <img src="image/openclaw_usage.png" width="15%" />
 </p>
+
+*Openclaw can fix any syntax error produced by the weaker model (Gemma4:e4b) which might break the pipeline as seen in picture 2.
+
 
 ## Features
 
