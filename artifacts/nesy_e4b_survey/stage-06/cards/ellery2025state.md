@@ -1,0 +1,11 @@
+# The state of hybrid artificial intelligence for interstellar missions
+
+*source: abstract_only | tokens: 140*
+
+This paper functions as a comprehensive review assessing the current state of Artificial Intelligence necessary to support highly autonomous systems for interstellar missions. The scope is defined by the extreme operational demands of transiting extrasolar systems over timescales of 50–100 years, necessitating onboard intelligence capable of ensuring high system availability, particularly through self-repair capabilities.
+
+The central theme and proposed categorization revolve around **Hybrid AI methods**, arguing that these approaches offer the most robust framework for achieving the required level of autonomy by mitigating the inherent weaknesses of purely paradigmatic systems. The review implicitly contrasts three major AI approaches: symbolic manipulation systems, connectionist (neural network) systems, and the hybrid integration thereof.
+
+Key patterns identified across the surveyed literature highlight a fundamental trade-off: Symbolic systems provide predictable, logically coherent, and comprehensible rationality, making them reliable for structured decision-making, but they suffer from brittleness outside their narrowly defined operational domains. Conversely, neural networks excel at pattern recognition and handling complex, unstructured data but often lack transparency and guaranteed logical consistency. The paper positions hybrid AI as the necessary synthesis, aiming to combine the logical rigor of symbolic reasoning with the adaptability and perceptual power of connectionist models.
+
+The primary gap addressed by the review is the lack of mature, integrated AI architectures capable of maintaining complex functionality over multi-decade operational lifecycles in an unassisted, extreme environment. While the paper does not cite specific benchmark numbers, its focus is on the *capability assessment* rather than performance metrics on standard datasets. It serves as a foundational review, framing the technical requirements for future AI research in deep space exploration, thereby relating to other literature by establishing the necessary architectural prerequisites for long-duration, high-stakes autonomy.

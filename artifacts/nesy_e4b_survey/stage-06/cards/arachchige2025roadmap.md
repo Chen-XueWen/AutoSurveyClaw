@@ -1,0 +1,9 @@
+# A Roadmap Toward Neurosymbolic Approaches in AI Design
+
+*source: abstract_only | tokens: 131*
+
+This paper serves as a comprehensive survey and roadmap for Neurosymbolic Artificial Intelligence (NS-AI), synthesizing the field's architectural evolution from 2013 to 2024. The authors conducted a systematic review of 319 peer-reviewed publications to map the structural patterns and integration strategies within NS-AI. The core contribution is the development of a structured taxonomy to categorize the diverse approaches. Based on their analysis of the literature, the authors classify the representative NS-AI architectures into three distinct paradigms: **Sequential**, **Multi-Integration**, and **Hybrid**.
+
+The survey identifies key thematic patterns across these approaches, demonstrating how researchers attempt to merge the strengths of connectionist (sub-symbolic, statistical learning) and symbolic reasoning (formal, explainable) AI. While the paper details the structural patterns, its primary value lies in providing a high-level, organized map of the field's methodological landscape.
+
+Although the provided excerpt does not detail specific benchmark results or concrete limitations, the structure implies that the authors identify gaps related to the optimal balance and mechanism of integration across the three paradigms. By establishing this classification system, the work positions itself as a foundational resource, guiding future research by delineating which integration strategies (Sequential vs. Multi-Integration vs. Hybrid) have been most rigorously explored or remain underdeveloped. This systematic classification is crucial for researchers aiming to design novel, theoretically grounded NS-AI systems.

@@ -1,0 +1,13 @@
+# Defining neurosymbolic AI
+
+*source: arxiv_html | tokens: 11156*
+
+This paper functions as a foundational theoretical piece, arguing for and establishing a unifying mathematical framework for the entire field of Neurosymbolic AI (NeSy). The central argument addresses the current state of the field, which the authors characterize as an "alphabet soup" due to the lack of a generally accepted formal definition. The authors propose that NeSy inference must be formally defined as computing an integral over the product of a **logical function** and a **belief function**.
+
+The framework rigorously defines a neurosymbolic model as a tuple $(L, \mu, \Omega, b_{\bm{\theta}})$, comprising a logical language $L$ with semantics $\mu$, an interpretation space $\Omega$, and a belief function $b_{\bm{\theta}}$ parameterized by $\bm{\theta}$. The core technical contribution is defining neurosymbolic inference via a functional that utilizes measure theory and the Lebesgue integral. This approach elevates the field by providing a mathematically rigorous structure that generalizes existing methods.
+
+The paper demonstrates the framework's unifying power across different semantic domains. For **Boolean semantics**, the definition successfully encompasses systems like **DeepProbLog** [Manhaeve et al., 2018], **Neural Markov Logic Networks (NMLN)** [Marra and Kuželka, 2021], and **NeurASP** [Yang et al., 2020]. In these cases, inference reduces to instances of Weighted Model Counting (WMC) or Weighted Model Integration (WMI). For **fuzzy semantics**, the framework unifies systems such as **Logic Tensor Networks (LTN)** [Badreddine et al., 2022] and **Neural Probabilistic Soft Logic (NeuPSL)** [Pryor et al., 2022], where inference is calculated using a Borel measure over the continuous interpretation space $[0,1]^k$.
+
+The implications of this definition are profound: it abstracts away the specific neural architecture used for the belief function, allowing the definition to remain semantically focused. The authors explicitly state that the framework does not restrict the learning process, allowing for diverse optimization methods (e.g., backpropagation loss or Expectation Maximization).
+
+The paper's primary open question, and area for future work, concerns edge cases like Maximum A Posteriori (MAP) inference, which requires composing the integral definition with a maximization operation. By providing this general measure-theoretic foundation, the authors aim to establish a common language for comparing, developing, and theoretically analyzing all future NeSy systems.

@@ -1,0 +1,13 @@
+# BANSAI: Towards Bridging the AI Adoption Gap in Industrial Robotics with Neurosymbolic Programming
+
+*source: arxiv_html | tokens: 5568*
+
+This paper, "BANSAI: Towards Bridging the AI Adoption Gap in Industrial Robotics with Neurosymbolic Programming," is a method/system paper that addresses the significant "AI adoption gap" in industrial robotics. The authors argue that while deep learning (DL) has advanced manipulation capabilities, current industrial programming workflows—which require high reliability, explainability, and integration with legacy systems—are fundamentally incompatible with state-of-the-art DL models.
+
+To bridge this gap, the authors propose BANSAI, a neurosymbolic framework designed to integrate AI assistance across the entire robot program lifecycle (Programming, Commissioning, Handover, Ramp-Up, Operation). The core technical approach is the principled combination of symbolic AI (e.g., AI planning, knowledge bases) and subsymbolic DL.
+
+Technically, BANSAI employs a **dual program representation**: a traditional, symbolic, skill-based program for actual execution on the robot (critical for maintaining safety certification and human trust) and a corresponding neural "surrogate" program for learning and optimization. Program synthesis is achieved via **KR&R-driven metaprogramming**, allowing complex programs to be bootstrapped from high-level domain knowledge encoded in a semantic knowledge base. During commissioning and ramp-up, the neural surrogate model approximates the symbolic program's behavior, enabling gradient-based optimization of the original skill parameters—a process that reduces the time-consuming manual parameter tweaking.
+
+A key claim of the system is its process-centric design: the symbolic program remains the executed artifact, ensuring that the critical **Handover** and **Safety Certification** phases are unaffected by the underlying AI optimization methods. Furthermore, the surrogate architecture supports unsupervised **lifelong learning** during operation, allowing the system to continuously adapt parameters to compensate for performance drift (e.g., wear and tear) [Ref. 28].
+
+While the paper unifies and builds upon prior work—including DL-based parameter inference [Ref. 18] and KR&R-based synthesis [Ref. 25]—the authors note that the full, integrated evaluation of the entire BANSAI workflow is currently underway. The system is designed to be general, referencing prior evaluations across various symbolic skill frameworks, such as those used in retail fetch-and-place [Ref. 25] and industrial surface treatment [Ref. 29]. BANSAI thus provides a comprehensive, industrially-aware blueprint for integrating neurosymbolic AI into established manufacturing practices.

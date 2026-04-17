@@ -1,0 +1,23 @@
+{
+  "stage_id": "15-export_publish",
+  "run_id": "survey-20260416-135453-87bab2",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "paper_final.md",
+    "invalid_citations.json",
+    "paper_final_latex.md",
+    "references.bib",
+    "paper.tex"
+  ],
+  "evidence_refs": [
+    "stage-15/paper_final.md",
+    "stage-15/invalid_citations.json",
+    "stage-15/paper_final_latex.md",
+    "stage-15/references.bib",
+    "stage-15/paper.tex"
+  ],
+  "error": null,
+  "ts": "2026-04-16T14:45:17+00:00",
+  "next_stage": 16
+}

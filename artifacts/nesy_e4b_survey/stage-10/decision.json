@@ -1,0 +1,15 @@
+{
+  "stage_id": "10-paper_draft",
+  "run_id": "survey-20260416-135453-87bab2",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "paper_draft.md"
+  ],
+  "evidence_refs": [
+    "stage-10/paper_draft.md"
+  ],
+  "error": null,
+  "ts": "2026-04-16T14:32:05+00:00",
+  "next_stage": 11
+}

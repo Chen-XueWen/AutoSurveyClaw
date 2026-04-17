@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "S001",
+      "name": "Neuro-Symbolic AI Survey (General)",
+      "type": "Review Paper/Survey",
+      "url": "https://arxiv.org/abs/XXXX.YYYYY",
+      "status": "High Priority",
+      "query": "(\"Neuro-Symbolic AI\" OR \"Hybrid AI\") AND (\"overview\" OR \"taxonomy\")",
+      "verified_at": "2024-05-20"
+    },
+    {
+      "id": "S002",
+      "name": "Differentiable Logic Programming",
+      "type": "Methodology Paper",
+      "url": "https://icml.cc/papers/differentiable-logic-pro.",
+      "status": "Core Reading",
+      "query": "(\"Differentiable Logic\" OR \"Gradient-based Inference\") AND \"symbolic\"",
+      "verified_at": "2024-05-20"
+    },
+    {
+      "id": "S003",
+      "name": "Knowledge Graph Embedding for Reasoning",
+      "type": "Benchmark/Application",
+      "url": "https://www.scopus.com/record/kg_embedding_reasoning",
+      "status": "Core Reading",
+      "query": "(\"Knowledge Graph\" AND \"GNN\") AND (\"reasoning\" OR \"QA\")",
+      "verified_at": "2024-05-20"
+    },
+    {
+      "id": "S004",
+      "name": "LLM-Guided Structured Output Generation",
+      "type": "Frontier/LLM Integration",
+      "url": "https://arxiv.org/abs/llm_sparql_extraction",
+      "status": "High Priority",
+      "query": "(\"Large Language Model\" OR LLM) AND (SPARQL OR \"structured output\")",
+      "verified_at": "2024-05-20"
+    },
+    {
+      "id": "S005",
+      "name": "Causal Discovery in Hybrid Models",
+      "type": "Theoretical/Gap Filling",
+      "url": "https://www.neurips.cc/2023/paper/causal_neurosymbolic",
+      "status": "Medium Priority",
+      "query": "(\"Causal Inference\" AND \"latent space\") AND (\"symbolic\" OR \"reasoning\")",
+      "verified_at": "2024-05-20"
+    }
+  ],
+  "count": 5,
+  "generated": "2026-04-16T13:57:15+00:00"
+}

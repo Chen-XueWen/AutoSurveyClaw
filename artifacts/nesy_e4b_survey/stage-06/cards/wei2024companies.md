@@ -1,0 +1,13 @@
+# How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance
+
+*source: arxiv_html | tokens: 30397*
+
+This paper, "How Do AI Companies 'Fine-Tune' Policy? Examining Regulatory Capture in AI Governance," functions as a comprehensive **Method/System Paper** that develops a framework for understanding industry influence on the governance of General-Purpose Artificial Intelligence Systems (GPAIS). The core problem addressed is the risk of "regulatory capture," defined as policy outcomes that contravene the public interest by prioritizing private welfare over public safety, fairness, or transparency.
+
+The technical approach involves establishing a formal definition of capture—requiring both a detrimental policy outcome and demonstrable industry influence—and then operationalizing this framework through qualitative data. The authors conducted **17 semi-structured expert interviews** with AI policy experts across academia, government, and civil society, supplementing this with observational data review.
+
+Key findings detail the most common mechanisms of influence. Experts overwhelmingly identified **agenda-setting** (cited in 15 of 17 interviews) as the primary mechanism, noting that industry actors advance anti-regulation narratives (e.g., focusing on "national security" or "economic competitiveness") to steer policy away from public interest goals. Other highly cited mechanisms include **advocacy** (13/17 interviews), **academic capture** (10/17 interviews), and **information management** (9/17 interviews), where companies exploit information asymmetries (e.g., withholding details on models like GPT-4).
+
+The study's key results highlight that capture is most likely to manifest as **under-regulation or weak regulation**, rather than overt over-regulation. Specific examples cited include industry efforts to weaken the **EU AI Act** by advocating for open-source exemptions or raising compute thresholds.
+
+The paper's contribution to the literature is its detailed taxonomy of influence mechanisms, which moves beyond classical models (e.g., Stigler, 1971) to encompass modern digital dynamics. While the paper does not test a computational model, it provides a crucial *governance model* for analyzing AI risk. Limitations include the reliance on non-random sampling ($n=17$) and the scope being limited to US policy and GPAIS. However, the paper offers concrete mitigation suggestions, such as building technical capacity within government and promoting independent review of regulatory rules, which are vital for developing technical governance safeguards.

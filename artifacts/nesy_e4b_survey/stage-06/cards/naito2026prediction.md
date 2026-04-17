@@ -1,0 +1,11 @@
+# AI prediction leads people to forgo guaranteed rewards
+
+*source: abstract_only | tokens: 156*
+
+This empirical study investigates the non-computational, yet critical, influence of Artificial Intelligence (AI) on human decision-making, specifically focusing on how belief in an AI’s predictive authority can lead to self-constraining behavior. The core problem addressed is that AI's perceived competence can alter human rationality, suggesting that models must account for psychological biases rather than just optimizing for objective utility.
+
+The research employed a behavioral implementation of the classic Newcomb's paradox, involving a large sample of 1,305 participants. The technical approach was experimental, manipulating the framing of decision-making to establish the AI's role as a predictive oracle. The study found that a significant portion of participants (over 40%) treated the AI as a genuine predictive authority. This belief was not merely correlational; it had a measurable, detrimental impact on economic outcomes. Quantitatively, belief in the AI's prediction significantly increased the odds of participants forgoing a guaranteed reward by a factor of 3.39 (95% CI: 2.45–4.70) when compared to control conditions utilizing random framing. This behavioral constraint resulted in an average reduction in earnings ranging from 10.7% to 42.9%.
+
+Crucially, the authors demonstrated the robustness of this effect, noting that the behavioral pattern persisted even in scenarios where the AI’s predictions proved inaccurate. This suggests the mechanism is rooted in the *belief* in predictive capability, rather than the accuracy of the prediction itself.
+
+For the field of Neurosymbolic AI, this work highlights a major gap: current systems often assume rational agents operating under perfect information. This study provides quantitative evidence that when an AI system is deployed, its mere perceived authority can induce systematic, predictable irrationality (self-constraint) in human users. Future AI designs, particularly those interfacing with high-stakes decision-making, must therefore incorporate models that predict and mitigate this psychological over-reliance, treating the user's belief in the AI as a critical, quantifiable input variable.

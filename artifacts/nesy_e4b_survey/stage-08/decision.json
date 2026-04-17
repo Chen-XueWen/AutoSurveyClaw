@@ -1,0 +1,15 @@
+{
+  "stage_id": "08-taxonomy_build",
+  "run_id": "survey-20260416-135453-87bab2",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "taxonomy.md"
+  ],
+  "evidence_refs": [
+    "stage-08/taxonomy.md"
+  ],
+  "error": null,
+  "ts": "2026-04-16T14:24:28+00:00",
+  "next_stage": 9
+}

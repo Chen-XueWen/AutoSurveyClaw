@@ -1,0 +1,9 @@
+# Enhancing Transcription Factor Prediction via Domain Knowledge Integration With Logic Tensor Networks
+
+*source: abstract_only | tokens: 133*
+
+This paper introduces **LTN-TFpredict**, a novel neurosymbolic framework designed to significantly improve the accuracy and interpretability of Transcription Factor (TF) prediction. The core problem addressed is twofold: existing computational methods suffer from low predictive accuracy, while deep learning approaches, though powerful, often fail to integrate crucial domain-specific biological knowledge, leading to models that are opaque ("black-box").
+
+The technical contribution is the integration of **Logic Tensor Networks (LTNs)** with deep learning architectures. The model leverages state-of-the-art **pre-trained protein language models (PLMs)** to generate high-dimensional sequence embeddings, capturing rich contextual information. Crucially, this deep learning component is augmented by the symbolic reasoning capabilities of LTNs. These LTNs are explicitly designed to incorporate logical constraints derived from five key, known TF-related biological motifs.
+
+By fusing the continuous feature extraction power of PLMs with the structured, rule-based reasoning of LTNs, LTN-TFpredict aims to achieve a synergistic enhancement: improving predictive performance while simultaneously providing an interpretable mechanism rooted in known biological rules. While specific benchmark performance metrics are not fully detailed in the provided text, the central claim is that this neurosymbolic integration surpasses prior state-of-the-art methods by making the prediction process both highly accurate and biologically justifiable. This work directly contributes to the neurosymbolic AI literature by providing a concrete architectural blueprint for grounding deep learning predictions in formal, domain-specific knowledge structures.

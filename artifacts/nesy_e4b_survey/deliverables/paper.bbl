@@ -1,0 +1,288 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Acharya et~al.(2024)Acharya, Sharifi, Lad, Sun, and
+  Song]{acharya2024integrating}
+K.~Acharya, Iman Sharifi, Mehul Lad, Liang Sun, and Houbing Song.
+\newblock Integrating neurosymbolic ai in advanced air mobility: A
+  comprehensive survey.
+\newblock 2024.
+\newblock \doi{10.24963/ijcai.2024/1151}.
+\newblock URL \url{https://doi.org/10.24963/ijcai.2024/1151}.
+
+\bibitem[Alt et~al.(2024)Alt, Dvorak, Katic, Jäkel, Beetz, and
+  Lanza]{alt2024bansai}
+Benjamin Alt, Julia Dvorak, Darko Katic, Rainer Jäkel, Michael Beetz, and
+  Gisela Lanza.
+\newblock Bansai: Towards bridging the ai adoption gap in industrial robotics
+  with neurosymbolic programming.
+\newblock \emph{arXiv preprint arXiv:2404.13652}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.13652}.
+
+\bibitem[Baaj et~al.(2024)Baaj, Bouraoui, Cornuéjols, Denœux, Destercke,
+  Dubois, Lesot, Marques‐Silva, Mengin, Prade, Schockaert, Serrurier,
+  Strauss, and Vrain]{baaj2024synergies}
+Ismaïl Baaj, Zied Bouraoui, Antoine Cornuéjols, Thierry Denœux, Sébastien
+  Destercke, Didier Dubois, Marie‐Jeanne Lesot, João Marques‐Silva,
+  Jérôme Mengin, Henri Prade, Steven Schockaert, Mathieu Serrurier, Olivier
+  Strauss, and Christel Vrain.
+\newblock Synergies between machine learning and reasoning - an introduction by
+  the kay r. amel group.
+\newblock \emph{International Journal of Approximate Reasoning}, 2024.
+\newblock \doi{10.1016/j.ijar.2024.109206}.
+\newblock URL \url{https://doi.org/10.1016/j.ijar.2024.109206}.
+
+\bibitem[Baldazzi et~al.(2025)Baldazzi, Bellomarini, and
+  Sallinger]{baldazzi2025knowledge}
+Teodoro Baldazzi, Luigi Bellomarini, and Emanuel Sallinger.
+\newblock Knowledge graph-based reasoning in large language models.
+\newblock \emph{Frontiers in artificial intelligence and applications}, 2025.
+\newblock \doi{10.3233/faia250219}.
+\newblock URL \url{https://doi.org/10.3233/faia250219}.
+
+\bibitem[Bizzarri et~al.(2025)Bizzarri, Yu, Jalaian, Riguzzi, and
+  Bastian]{bizzarri2025neurosymbolic}
+Alice Bizzarri, Joanne Yu, Brian Jalaian, Fabrizio Riguzzi, and Nathaniel~D.
+  Bastian.
+\newblock Neurosymbolic ai for network intrusion detection systems: A survey.
+\newblock \emph{Journal of Information Security and Applications}, 2025.
+\newblock \doi{10.1016/j.jisa.2025.104205}.
+\newblock URL \url{https://doi.org/10.1016/j.jisa.2025.104205}.
+
+\bibitem[Danry et~al.(2023)Danry, Pataranutaporn, Mao, and Maes]{danry2023dont}
+Valdemar Danry, Pat Pataranutaporn, Yaoli Mao, and Pattie Maes.
+\newblock Don’t just tell me, ask me: Ai systems that intelligently frame
+  explanations as questions improve human logical discernment accuracy over
+  causal ai explanations.
+\newblock 2023.
+\newblock \doi{10.1145/3544548.3580672}.
+\newblock URL \url{https://doi.org/10.1145/3544548.3580672}.
+
+\bibitem[DeLong et~al.(2024)DeLong, Mir, and Fleuriot]{delong2024neurosymbolic}
+Lauren~Nicole DeLong, Ramon~Fernández Mir, and Jacques Fleuriot.
+\newblock Neurosymbolic ai for reasoning over knowledge graphs: A survey.
+\newblock \emph{IEEE Transactions on Neural Networks and Learning Systems},
+  2024.
+\newblock \doi{10.1109/tnnls.2024.3420218}.
+\newblock URL \url{https://doi.org/10.1109/tnnls.2024.3420218}.
+
+\bibitem[d’Avila Garcez and Lamb(2023)]{garcez2023neurosymbolic}
+Artur d’Avila Garcez and Luís~C. Lamb.
+\newblock Neurosymbolic ai: the 3rd wave.
+\newblock \emph{Artificial Intelligence Review}, 2023.
+\newblock \doi{10.1007/s10462-023-10448-w}.
+\newblock URL \url{https://doi.org/10.1007/s10462-023-10448-w}.
+
+\bibitem[Flach et~al.(2023)Flach, Moreira, and Lamb]{flach2023neural}
+João Flach, Alvaro~F. Moreira, and Luis~C. Lamb.
+\newblock Towards a neural lambda calculus: Neurosymbolic ai applied to the
+  foundations of functional programming.
+\newblock \emph{arXiv preprint arXiv:2304.09276}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2304.09276}.
+
+\bibitem[Gao et~al.(2025)Gao, Sun, and Sheng]{gao2025enhancing}
+Liyuan Gao, Linpeng Sun, and Victor~S. Sheng.
+\newblock Enhancing transcription factor prediction via domain knowledge
+  integration with logic tensor networks.
+\newblock \emph{IEEE Transactions on Computational Biology and Bioinformatics},
+  2025.
+\newblock \doi{10.1109/tcbbio.2025.3617864}.
+\newblock URL \url{https://doi.org/10.1109/tcbbio.2025.3617864}.
+
+\bibitem[Gao et~al.(2023)Gao, Xiong, Gao, Jia, Pan, Bi, Dai, Sun, Wang, and
+  Wang]{gao2023retrievalaugmented}
+Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi~Dai,
+  Jiawei Sun, Haofen Wang, and Haofen Wang.
+\newblock Retrieval-augmented generation for large language models: A survey.
+\newblock \emph{arXiv (Cornell University)}, 2023.
+\newblock \doi{10.48550/arxiv.2312.10997}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2312.10997}.
+
+\bibitem[Gaur and Sheth(2024)]{gaur2024building}
+Manas Gaur and Amit Sheth.
+\newblock Building trustworthy neurosymbolic ai systems: Consistency,
+  reliability, explainability, and safety.
+\newblock \emph{AI Magazine}, 2024.
+\newblock \doi{10.1002/aaai.12149}.
+\newblock URL \url{https://doi.org/10.1002/aaai.12149}.
+
+\bibitem[Hamilton et~al.(2022)Hamilton, Nayak, Božić, and
+  Longo]{hamilton2022neurosymbolic}
+Kyle Hamilton, Aparna Nayak, Bojan Božić, and Luca Longo.
+\newblock Is neuro-symbolic ai meeting its promises in natural language
+  processing? a structured review.
+\newblock \emph{Semantic Web}, 2022.
+\newblock \doi{10.3233/sw-223228}.
+\newblock URL \url{https://doi.org/10.3233/sw-223228}.
+
+\bibitem[Hóu(2025)]{hou2025neuralsymbolic}
+Zhé Hóu.
+\newblock Neural-symbolic reasoning: Towards the integration of logical
+  reasoning with large language models.
+\newblock 2025.
+\newblock \doi{10.36227/techrxiv.174352068.81462574/v1}.
+\newblock URL \url{https://doi.org/10.36227/techrxiv.174352068.81462574/v1}.
+
+\bibitem[Jaimini et~al.(2024)Jaimini, Henson, and Sheth]{jaimini2024causal}
+Utkarshani Jaimini, Cory Henson, and Amit Sheth.
+\newblock Causal neurosymbolic ai: A synergy between causality and
+  neurosymbolic methods.
+\newblock \emph{IEEE Intelligent Systems}, 2024.
+\newblock \doi{10.1109/mis.2024.3395936}.
+\newblock URL \url{https://doi.org/10.1109/mis.2024.3395936}.
+
+\bibitem[Jalaian and Bastian(2023)]{jalaian2023neurosymbolic}
+Brian Jalaian and Nathaniel~D. Bastian.
+\newblock Neurosymbolic ai in cybersecurity: Bridging pattern recognition and
+  symbolic reasoning.
+\newblock 2023.
+\newblock \doi{10.1109/milcom58377.2023.10356283}.
+\newblock URL \url{https://doi.org/10.1109/milcom58377.2023.10356283}.
+
+\bibitem[Jiomekong and Tiwari(2024)]{jiomekong2024approach}
+Azanzi Jiomekong and Sanju Tiwari.
+\newblock An approach based on open research knowledge graph for knowledge
+  acquisition from scientific papers.
+\newblock \emph{The Electronic Library}, 2024.
+\newblock \doi{10.1108/el-06-2023-0154}.
+\newblock URL \url{https://doi.org/10.1108/el-06-2023-0154}.
+
+\bibitem[Kalutharage et~al.(2024)Kalutharage, Liu, Chrysoulas, and
+  Bamgboye]{kalutharage2024neurosymbolic}
+Chathuranga~Sampath Kalutharage, Xiaodong Liu, Christos Chrysoulas, and
+  Oluwaseun Bamgboye.
+\newblock Neurosymbolic learning in the xai framework for enhanced cyberattack
+  detection with expert knowledge integration.
+\newblock \emph{IFIP advances in information and communication technology},
+  2024.
+\newblock \doi{10.1007/978-3-031-65175-5_17}.
+\newblock URL \url{https://doi.org/10.1007/978-3-031-65175-5_17}.
+
+\bibitem[Kosasih and Brintrup(2024)]{kosasih2024trustworthy}
+Edward~Elson Kosasih and Alexandra Brintrup.
+\newblock Towards trustworthy ai for link prediction in supply chain knowledge
+  graph: a neurosymbolic reasoning approach.
+\newblock \emph{International Journal of Production Research}, 2024.
+\newblock \doi{10.1080/00207543.2024.2399713}.
+\newblock URL \url{https://doi.org/10.1080/00207543.2024.2399713}.
+
+\bibitem[Kosasih et~al.(2023)Kosasih, Papadakis, Baryannis, and
+  Brintrup]{kosasih2023review}
+Edward~Elson Kosasih, Emmanuel~P. Papadakis, George Baryannis, and Alexandra
+  Brintrup.
+\newblock A review of explainable artificial intelligence in supply chain
+  management using neurosymbolic approaches.
+\newblock \emph{International Journal of Production Research}, 2023.
+\newblock \doi{10.1080/00207543.2023.2281663}.
+\newblock URL \url{https://doi.org/10.1080/00207543.2023.2281663}.
+
+\bibitem[Longo et~al.(2024)Longo, Brčić, Cabitza, Choi, Confalonieri, Ser,
+  Guidotti, Hayashi, Herrera, Holzinger, Jiang, Khosravi, Lécué, Malgieri,
+  Páez, Samek, Schneider, Speith, and Stumpf]{longo2024explainable}
+Luca Longo, Mario Brčić, Federico Cabitza, Jaesik Choi, Roberto Confalonieri,
+  Javier~Del Ser, Riccardo Guidotti, Yoichi Hayashi, Francisco Herrera, Andreas
+  Holzinger, Richard Jiang, Hassan Khosravi, Freddy Lécué, Gianclaudio
+  Malgieri, Andrés Páez, Wojciech Samek, Johannes Schneider, Timo Speith, and
+  Simone Stumpf.
+\newblock Explainable artificial intelligence (xai) 2.0: A manifesto of open
+  challenges and interdisciplinary research directions.
+\newblock \emph{Information Fusion}, 2024.
+\newblock \doi{10.1016/j.inffus.2024.102301}.
+\newblock URL \url{https://doi.org/10.1016/j.inffus.2024.102301}.
+
+\bibitem[Mialon et~al.(2023)Mialon, Dessì, Lomelí, Nalmpantis, Pasunuru,
+  Răileanu, Rozière, Schick, Dwivedi-Yu, Çelikyılmaz, Édouard Grave,
+  LeCun, and Scialom]{mialon2023augmented}
+Grégoire Mialon, Roberto Dessì, María Lomelí, Christoforos Nalmpantis, Ram
+  Pasunuru, Roberta Răileanu, Baptiste Rozière, Timo Schick, Jane Dwivedi-Yu,
+  Aslı Çelikyılmaz, Édouard Grave, Yann LeCun, and Thomas Scialom.
+\newblock Augmented language models: a survey.
+\newblock \emph{arXiv (Cornell University)}, 2023.
+\newblock \doi{10.48550/arxiv.2302.07842}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2302.07842}.
+
+\bibitem[Murali et~al.(2025)Murali, Gopakumar, Viswanathan, Raman, and
+  Nedungadi]{murali2025integrating}
+Lino Murali, G.~Gopakumar, Daleesha~M Viswanathan, Raghu Raman, and Prema
+  Nedungadi.
+\newblock Integrating llms and knowledge graphs for medical ai: Advances,
+  challenges, and future directions.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 2025.
+\newblock \doi{10.1109/jbhi.2025.3622058}.
+\newblock URL \url{https://doi.org/10.1109/jbhi.2025.3622058}.
+
+\bibitem[Navigli et~al.(2021)Navigli, Bevilacqua, Conia, Montagnini, and
+  Cecconi]{navigli2021years}
+Roberto Navigli, Michele Bevilacqua, Simone Conia, Dario Montagnini, and
+  Francesco Cecconi.
+\newblock Ten years of babelnet: A survey.
+\newblock 2021.
+\newblock \doi{10.24963/ijcai.2021/620}.
+\newblock URL \url{https://doi.org/10.24963/ijcai.2021/620}.
+
+\bibitem[Núñez-Molina et~al.(2024)Núñez-Molina, Mesejo, and
+  Fernández-Olivares]{nunezmolina2024review}
+Carlos Núñez-Molina, Pablo Mesejo, and Juan Fernández-Olivares.
+\newblock A review of symbolic, subsymbolic and hybrid methods for sequential
+  decision making.
+\newblock \emph{ACM Computing Surveys}, 2024.
+\newblock \doi{10.1145/3663366}.
+\newblock URL \url{https://doi.org/10.1145/3663366}.
+
+\bibitem[Olausson et~al.(2023)Olausson, Gu, Lipkin, Zhang, Solar-Lezama,
+  Tenenbaum, and Lévy]{olausson2023linc}
+Theo Olausson, Alex Gu, Benjamin Lipkin, Cedegao Zhang, Armando Solar-Lezama,
+  Joshua~B. Tenenbaum, and Roger Lévy.
+\newblock Linc: A neurosymbolic approach for logical reasoning by combining
+  language models with first-order logic provers.
+\newblock 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.313}.
+\newblock URL \url{https://doi.org/10.18653/v1/2023.emnlp-main.313}.
+
+\bibitem[Sheth et~al.(2022)Sheth, Gaur, Roy, Venkataraman, and
+  Khandelwal]{sheth2022process}
+Amit Sheth, Manas Gaur, Kaushik Roy, Revathy Venkataraman, and Vedant
+  Khandelwal.
+\newblock Process knowledge-infused ai: Toward user-level explainability,
+  interpretability, and safety.
+\newblock \emph{IEEE Internet Computing}, 2022.
+\newblock \doi{10.1109/mic.2022.3182349}.
+\newblock URL \url{https://doi.org/10.1109/mic.2022.3182349}.
+
+\bibitem[Sridhar et~al.(2022)Sridhar, Dutta, Weimer, and
+  Lee]{sridhar2022guaranteed}
+Kaustubh Sridhar, Souradeep Dutta, James Weimer, and Insup Lee.
+\newblock Guaranteed conformance of neurosymbolic models to natural
+  constraints.
+\newblock \emph{arXiv preprint arXiv:2212.01346}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2212.01346}.
+
+\bibitem[von Rueden et~al.(2021)von Rueden, Mayer, Beckh, Georgiev,
+  Giesselbach, Heese, Kirsch, Walczak, Pfrommer, Pick, Ramamurthy, Garcke,
+  Bauckhage, and Schuecker]{rueden2021informed}
+Laura von Rueden, Sebastian Mayer, Katharina Beckh, Bogdan Georgiev, Sven
+  Giesselbach, Raoul Heese, Birgit Kirsch, Michał Walczak, Julius Pfrommer,
+  Annika Pick, Rajkumar Ramamurthy, Jochen Garcke, Christian Bauckhage, and
+  Jannis Schuecker.
+\newblock Informed machine learning - a taxonomy and survey of integrating
+  prior knowledge into learning systems.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering}, 2021.
+\newblock \doi{10.1109/tkde.2021.3079836}.
+\newblock URL \url{https://doi.org/10.1109/tkde.2021.3079836}.
+
+\bibitem[Álvaro García-Barragán et~al.(2024)Álvaro García-Barragán,
+  Sakor, Vidal, Menasalvas, Ángel Gonzalez, Provencio, and
+  Robles]{garciabarragan2024nssc}
+Álvaro García-Barragán, Ahmad Sakor, María-Esther Vidal, Ernestina
+  Menasalvas, José Ángel Gonzalez, Mariano Provencio, and Victor Robles.
+\newblock Nssc: a neuro-symbolic ai system for enhancing accuracy of named
+  entity recognition and linking from oncologic clinical notes.
+\newblock \emph{Medical \& Biological Engineering \& Computing}, 2024.
+\newblock \doi{10.1007/s11517-024-03227-4}.
+\newblock URL \url{https://doi.org/10.1007/s11517-024-03227-4}.
+
+\end{thebibliography}

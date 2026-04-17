@@ -1,0 +1,9 @@
+{
+  "stage_id": "13-quality_gate",
+  "run_id": "survey-20260416-135453-87bab2",
+  "duration_sec": 31.05,
+  "status": "done",
+  "artifacts_count": 2,
+  "error": null,
+  "timestamp": "2026-04-16T14:41:31+00:00"
+}

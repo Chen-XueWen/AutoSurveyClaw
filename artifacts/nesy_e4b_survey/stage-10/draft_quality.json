@@ -1,0 +1,127 @@
+{
+  "section_analysis": [
+    {
+      "heading": "Synapse: A Functional Taxonomy of Neurosymbolic AI Architectures",
+      "word_count": 2258,
+      "canonical": ""
+    },
+    {
+      "heading": "Methodology and Literature Curation",
+      "word_count": 330,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "The Functional Maturation Axis: A Taxonomy of NeSyAI",
+      "word_count": 721,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Detailed Review of Approaches",
+      "word_count": 1988,
+      "canonical": "detailed review of approaches",
+      "target": [
+        4000,
+        6000
+      ],
+      "status": "severely_short"
+    },
+    {
+      "heading": "Cross-Cutting Analysis and Synthesis of Synergy",
+      "word_count": 378,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Open Challenges and Future Directions",
+      "word_count": 1042,
+      "canonical": "open challenges and future directions",
+      "target": [
+        1500,
+        2500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Conclusion",
+      "word_count": 133,
+      "canonical": "conclusion",
+      "target": [
+        300,
+        500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Comparative Analysis and Synthesis of Neurosymbolic Approaches",
+      "word_count": 1613,
+      "canonical": "",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Open Challenges and Future Directions",
+      "word_count": 639,
+      "canonical": "open challenges and future directions",
+      "target": [
+        1500,
+        2500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Limitations of This Survey",
+      "word_count": 129,
+      "canonical": "limitations",
+      "target": [
+        200,
+        350
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    },
+    {
+      "heading": "Conclusion",
+      "word_count": 137,
+      "canonical": "conclusion",
+      "target": [
+        300,
+        500
+      ],
+      "status": "severely_short",
+      "bullet_density": 0.0,
+      "bullet_status": "ok"
+    }
+  ],
+  "overall_warnings": [
+    "Detailed Review of Approaches is severely under target (1988 words, target 4000-6000)",
+    "Open Challenges and Future Directions is severely under target (1042 words, target 1500-2500)",
+    "Conclusion is severely under target (133 words, target 300-500)",
+    "Open Challenges and Future Directions is severely under target (639 words, target 1500-2500)",
+    "Limitations of This Survey is severely under target (129 words, target 200-350)",
+    "Conclusion is severely under target (137 words, target 300-500)",
+    "High weasel-word count: 22 instances (consider replacing vague words with precise language)",
+    "AI boilerplate detected: 8 instances of generic LLM phrases (e.g., 'holistic understanding', 'paradigm shift', 'state-of-the-art')"
+  ],
+  "revision_directives": [
+    "EXPAND Detailed Review of Approaches from 1988 to 4000+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Open Challenges and Future Directions from 1042 to 1500+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Conclusion from 133 to 300+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Open Challenges and Future Directions from 639 to 1500+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Limitations of This Survey from 129 to 200+ words. Add substantive content — do NOT pad with filler.",
+    "EXPAND Conclusion from 137 to 300+ words. Add substantive content — do NOT pad with filler.",
+    "Replace vague hedging words (various, several, quite, fairly, rather, somewhat) with precise quantities or remove them.",
+    "REWRITE sentences containing AI-generated boilerplate phrases. Replace generic language (e.g., 'delves into', 'it is worth noting', 'leverages the power of', 'plays a crucial role', 'paves the way') with precise, specific academic language."
+  ]
+}

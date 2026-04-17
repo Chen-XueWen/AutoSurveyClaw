@@ -1,0 +1,11 @@
+# Application of Neurosymbolic AI to Sequential Decision Making
+
+*source: abstract_only | tokens: 123*
+
+This research note summarizes a foundational effort aimed at advancing the state-of-the-art in Neurosymbolic AI applied to Sequential Decision Making (SDM). The core problem addressed is the historical dichotomy in solving complex decision-making tasks, which has traditionally been split between two powerful but distinct paradigms: Automated Planning (AP) and Reinforcement Learning (RL).
+
+The central technical approach proposed is the development of a unified neurosymbolic framework. This framework seeks to combine the strengths of modern deep learning methods, typically associated with RL (e.g., handling high-dimensional perceptual inputs), with the structured, verifiable knowledge representation capabilities characteristic of symbolic AI and classical planning algorithms. The goal is not merely to combine components, but to develop methods that allow the system to learn the underlying symbolic structure of the decision-making problem itself, moving beyond purely data-driven or purely rule-based solutions.
+
+The scope of the work is ambitious, targeting both the *solving* of complex SDM tasks and the *learning* of the problem's inherent structure. While specific benchmark numbers or datasets are not detailed in this overview, the paper establishes a critical research trajectory for the field: bridging the gap where RL agents often lack explainability or robustness due to opaque policy networks, and where classical planners struggle with the continuous, messy inputs inherent in real-world environments.
+
+In relation to prior work, this research positions itself as a direct advancement toward a comprehensive unification layer. It acknowledges the successes of both RL (e.g., Deep Q-Networks, PPO) and AP (e.g., PDDL solvers) but argues that true progress requires a mechanism that enables deep neural networks to operate *over* or *ground* symbolic knowledge representations, thereby yielding systems that are both powerful and interpretable. The primary contribution is thus methodological—defining the necessary technical steps to achieve this robust neurosymbolic integration for sequential tasks.

@@ -1,0 +1,11 @@
+# Independence Is Not an Issue in Neurosymbolic AI
+
+*source: arxiv_html | tokens: 7667*
+
+This paper, "Independence Is Not an Issue in Neurosymbolic AI," functions as a critical methodological paper that re-evaluates the assumptions underpinning Neurosymbolic AI (NeSy) by comparing it to the framework of Disjunctive Supervision (DS). The central problem addressed is the "deterministic bias" phenomenon reported by van Krieken et al. [30], which claimed that the conditional independence assumption inherent in standard NeSy models causes systems to deterministically favor one solution over others.
+
+The authors argue that this conclusion is based on an improper application of the semantic loss. They establish a formal relationship, proving that NeSy classification is a special case of DS, while highlighting crucial differences in their assumptions. The core technical contribution is demonstrating that the deterministic bias observed in [30] arises because that work utilized a *truncated* semantic loss, omitting necessary negative training examples.
+
+Experimentally, the authors test their claims using the "Traffic Light Example," where inputs are represented by MNIST digits (0 or 1) corresponding to red and green light states, and the constraint is that at most one light can be on. When implementing the *full* semantic loss—which incorporates both positive and negative examples—the resulting model successfully learns the constraint without exhibiting the WTA effect seen in DS. Conversely, when replicating the flawed setup from [30] using the truncated loss, the authors successfully reproduce the deterministic bias.
+
+Furthermore, the paper contrasts the standard NeSy approach (which uses a sum-over-products factorization, reflecting the DSIC principle) against the standard DS parametrization (which typically uses a softmax). They show that the DSIC parametrization successfully avoids the WTA effect, suggesting that the conditional independence assumption, often criticized, is actually beneficial for stable learning dynamics in this context. The findings suggest that the apparent shortcomings of conditional independence are artifacts of methodological misapplication, not inherent flaws in the NeSy framework itself.

@@ -1,0 +1,32 @@
+deduplication:
+  fuzzy_threshold: 0.9
+  method: title_doi_hash
+filters:
+  language:
+  - en
+  min_year: 2020
+  peer_review_preferred: true
+generated: '2026-04-16T13:57:15+00:00'
+search_strategies:
+- max_results_per_query: 60
+  name: keyword_core
+  queries:
+  - Neurosymbolic AI
+  - Neurosymbolic AI survey
+  - Neurosymbolic AI review
+  - Neurosymbolic AI benchmark
+  - Neurosymbolic AI state of the art
+  sources:
+  - arxiv
+  - semantic_scholar
+  - openreview
+- depth: 1
+  name: backward_forward_citation
+  queries:
+  - Neurosymbolic AI
+  - Neurosymbolic AI survey
+  - Neurosymbolic AI review
+  sources:
+  - semantic_scholar
+  - google_scholar
+topic: Neurosymbolic AI

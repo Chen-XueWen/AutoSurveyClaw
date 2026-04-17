@@ -1,0 +1,16 @@
+{
+  "stage_id": "13-quality_gate",
+  "run_id": "survey-20260416-135453-87bab2",
+  "status": "done",
+  "decision": "proceed",
+  "output_artifacts": [
+    "quality_report.json",
+    "fabrication_flags.json"
+  ],
+  "evidence_refs": [
+    "stage-13/quality_report.json"
+  ],
+  "error": null,
+  "ts": "2026-04-16T14:41:31+00:00",
+  "next_stage": 14
+}

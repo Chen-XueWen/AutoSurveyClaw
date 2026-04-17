@@ -1,0 +1,327 @@
+{
+  "summary": {
+    "total": 35,
+    "verified": 34,
+    "suspicious": 0,
+    "hallucinated": 1,
+    "skipped": 0,
+    "integrity_score": 0.971
+  },
+  "results": [
+    {
+      "cite_key": "rueden2021informed",
+      "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems'",
+      "relevance_score": 0.8
+    },
+    {
+      "cite_key": "gao2023retrievalaugmented",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via DataCite: 'Retrieval-Augmented Generation for Large Language Models: A Survey'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "srivastava2022beyond",
+      "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via DataCite: 'Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models'",
+      "relevance_score": 0.3
+    },
+    {
+      "cite_key": "longo2024explainable",
+      "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "bozkurt2023speculative",
+      "title": "Speculative futures on ChatGPT and generative artificial intelligence (AI): A collective reflection from the educational landscape",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via DataCite: 'Speculative futures on ChatGPT and generative artificial intelligence (AI): A collective reflection from the educational landscape'",
+      "relevance_score": 0.1
+    },
+    {
+      "cite_key": "garcez2023neurosymbolic",
+      "title": "Neurosymbolic AI: the 3rd wave",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neurosymbolic AI: the 3rd wave'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "qi2023sentiment",
+      "title": "Sentiment analysis using Twitter data: a comparative application of lexicon- and machine-learning-based approach",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Sentiment analysis using Twitter data: a comparative application of lexicon- and machine-learning-based approach'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "mialon2023augmented",
+      "title": "Augmented Language Models: a Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via DataCite: 'Augmented Language Models: a Survey'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "danry2023dont",
+      "title": "Don\u2019t Just Tell Me, Ask Me: AI Systems that Intelligently Frame Explanations as Questions Improve Human Logical Discernment Accuracy over Causal AI explanations",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Don\u2019t Just Tell Me, Ask Me: AI Systems that Intelligently Frame Explanations as Questions Improve Human Logical Discernment Accuracy over Causal AI explanations'",
+      "relevance_score": 0.5
+    },
+    {
+      "cite_key": "hamilton2022neurosymbolic",
+      "title": "Is neuro-symbolic AI meeting its promises in natural language processing? A structured review",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Is neuro-symbolic AI meeting its promises in natural language processing? A\u00a0structured review'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "kosasih2023review",
+      "title": "A review of explainable artificial intelligence in supply chain management using neurosymbolic approaches",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A review of explainable artificial intelligence in supply chain management using neurosymbolic approaches'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "sheth2022process",
+      "title": "Process Knowledge-Infused AI: Toward User-Level Explainability, Interpretability, and Safety",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Process Knowledge-Infused AI: Toward User-Level Explainability, Interpretability, and Safety'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "navigli2021years",
+      "title": "Ten Years of BabelNet: A Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Ten Years of BabelNet: A Survey'",
+      "relevance_score": 0.6
+    },
+    {
+      "cite_key": "olausson2023linc",
+      "title": "LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "kosasih2024trustworthy",
+      "title": "Towards trustworthy AI for link prediction in supply chain knowledge graph: a neurosymbolic reasoning approach",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Towards trustworthy AI for link prediction in supply chain knowledge graph: a neurosymbolic reasoning approach'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "delong2024neurosymbolic",
+      "title": "Neurosymbolic AI for Reasoning Over Knowledge Graphs: A Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neurosymbolic AI for Reasoning Over Knowledge Graphs: A Survey'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "unknown2025machine",
+      "title": "Machine Learning in E-Commerce: Trends, Applications, and Future Challenges",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Machine Learning in E-Commerce: Trends, Applications, and Future Challenges'",
+      "relevance_score": 0.2
+    },
+    {
+      "cite_key": "jalaian2023neurosymbolic",
+      "title": "Neurosymbolic AI in Cybersecurity: Bridging Pattern Recognition and Symbolic Reasoning",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neurosymbolic AI in Cybersecurity: Bridging Pattern Recognition and Symbolic Reasoning'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "gaur2024building",
+      "title": "Building trustworthy NeuroSymbolic AI Systems: Consistency, reliability, explainability, and safety",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Building trustworthy NeuroSymbolic AI Systems: Consistency, reliability, explainability, and safety'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "garciabarragan2024nssc",
+      "title": "NSSC: a neuro-symbolic AI system for enhancing accuracy of named entity recognition and linking from oncologic clinical notes",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'NSSC: a neuro-symbolic AI system for enhancing accuracy of named entity recognition and linking from oncologic clinical notes'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "jaimini2024causal",
+      "title": "Causal Neurosymbolic AI: A Synergy Between Causality and Neurosymbolic Methods",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Causal Neurosymbolic AI: A Synergy Between Causality and Neurosymbolic Methods'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "baaj2024synergies",
+      "title": "Synergies between machine learning and reasoning - An introduction by the Kay R. Amel group",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Synergies between machine learning and reasoning - An introduction by the Kay R. Amel group'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "kalutharage2024neurosymbolic",
+      "title": "Neurosymbolic Learning in the XAI Framework for Enhanced Cyberattack Detection with Expert Knowledge Integration",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neurosymbolic Learning in\u00a0the\u00a0XAI Framework for\u00a0Enhanced Cyberattack Detection with\u00a0Expert Knowledge Integration'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "jiomekong2024approach",
+      "title": "An approach based on open research knowledge graph for knowledge acquisition from scientific papers",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'An approach based on open research knowledge graph for knowledge acquisition from scientific papers'",
+      "relevance_score": 0.7
+    },
+    {
+      "cite_key": "nunezmolina2024review",
+      "title": "A Review of Symbolic, Subsymbolic and Hybrid Methods for Sequential Decision Making",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'A Review of Symbolic, Subsymbolic and Hybrid Methods for Sequential Decision Making'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "murali2025integrating",
+      "title": "Integrating LLMs and Knowledge Graphs for Medical AI: Advances, Challenges, and Future Directions",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Integrating LLMs and Knowledge Graphs for Medical AI: Advances, Challenges, and Future Directions'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "hou2025neuralsymbolic",
+      "title": "Neural-Symbolic Reasoning: Towards the Integration of Logical Reasoning with Large Language Models",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neural-Symbolic Reasoning: Towards the Integration of Logical Reasoning with Large Language Models'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "gao2025enhancing",
+      "title": "Enhancing Transcription Factor Prediction via Domain Knowledge Integration With Logic Tensor Networks",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Enhancing Transcription Factor Prediction via Domain Knowledge Integration With Logic Tensor Networks'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "baldazzi2025knowledge",
+      "title": "Knowledge Graph-Based Reasoning in Large Language Models",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Knowledge Graph-Based Reasoning in Large Language Models'",
+      "relevance_score": 0.9
+    },
+    {
+      "cite_key": "acharya2024integrating",
+      "title": "Integrating Neurosymbolic AI in Advanced Air Mobility: A Comprehensive Survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Integrating Neurosymbolic AI in Advanced Air Mobility: A Comprehensive Survey'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "beiser2025intermediate",
+      "title": "Intermediate Languages Matter: Formal Languages and LLMs affect Neurosymbolic Reasoning",
+      "status": "hallucinated",
+      "confidence": 0.7,
+      "method": "openalex",
+      "details": "No results found via OpenAlex",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "bizzarri2025neurosymbolic",
+      "title": "Neurosymbolic AI for network intrusion detection systems: A survey",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "doi",
+      "details": "Confirmed via CrossRef: 'Neurosymbolic AI for network intrusion detection systems: A survey'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "alt2024bansai",
+      "title": "BANSAI: Towards Bridging the AI Adoption Gap in Industrial Robotics with Neurosymbolic Programming",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "openalex",
+      "details": "Confirmed via OpenAlex: 'BANSAI: Towards Bridging the AI Adoption Gap in Industrial Robotics with Neurosymbolic Programming'",
+      "relevance_score": 1.0
+    },
+    {
+      "cite_key": "flach2023neural",
+      "title": "Towards a Neural Lambda Calculus: Neurosymbolic AI Applied to the Foundations of Functional Programming",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "openalex",
+      "details": "Confirmed via OpenAlex: 'Towards a Neural Lambda Calculus: Neurosymbolic AI Applied to the Foundations of Functional Programming'",
+      "relevance_score": 0.95
+    },
+    {
+      "cite_key": "sridhar2022guaranteed",
+      "title": "Guaranteed Conformance of Neurosymbolic Models to Natural Constraints",
+      "status": "verified",
+      "confidence": 1.0,
+      "method": "openalex",
+      "details": "Confirmed via OpenAlex: 'Guaranteed Conformance of Neurosymbolic Models to Natural Constraints'",
+      "relevance_score": 1.0
+    }
+  ]
+}
